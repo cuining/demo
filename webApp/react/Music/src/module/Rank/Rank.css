@@ -1,0 +1,84 @@
+.u-title{
+	height: 30px;
+	border-bottom: 2px solid #009a61;
+	margin-top: 20px;
+}
+
+.m-record ul {
+	border: 1px solid #e2e2e2;
+	border-top: none;
+}
+.m-record li{
+	height: 38px;
+	line-height: 38px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.m-record li.even{
+	background-color: #f7f7f7;
+}
+.m-record li .tops span.bg{
+	position: absolute;
+	width: 100%;
+	height: 38px;
+	background-color: orange;
+	opacity: 0.1;
+}
+.m-record li .tops span.times{
+	position: absolute;
+	left: 10px;
+	font-size: 12px;
+}
+.m-record li .tops {
+	float: right;
+	position: relative;
+	width: 319px;
+	height: 38px;
+	
+}
+.m-record .num{
+	float: left;
+	padding:0 5px;
+}
+.m-record .song{
+	float: left;
+	position: relative;
+	width: 480px;
+	overflow: hidden;
+}
+.m-record .song span em{
+	margin: 0 5px;
+}
+.s-fc8, a.s-fc8:hover{
+	color: #aeaeae
+}
+.f-cb:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.m-cvrlst{
+	margin: 20px 0 0 -50px
+}
+.m-cvrlst li {
+    float: left;
+    display: inline-block;
+    width: 140px;
+    height: 150px;
+    overflow: hidden;
+    padding: 0 0 30px 50px;
+    line-height: 1.4;
+}
+.m-cvrlst li img{
+	width: 128px;
+    -webkit-transition: -webkit-transform 1s ease 0s;
+    transition: transform 1s ease 0s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+.m-cvrlst li .desc{
+	margin: 8px 0 3px;
+    font-size: 14px;
+}

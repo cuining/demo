@@ -1,0 +1,3375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<activity name="MainSplashActivity" title="null" >
+		<nextlist>
+			<activity name="IndexActivity" title="null" >
+				<nextlist>
+					<activity name="PeerActivity" title="null" >
+						<nextlist>
+							<activity name="SpeechActivity" title="null" >
+								<nextlist>
+									<activity name="AblumsListActivity" title="null" >
+										<nextlist>
+											<activity name="SelectPicturesActivity" title="null" >
+												<nextlist>
+													<activity name="NewPicBrowseActivity" title="/" >
+														<nextlist>
+														</nextlist>
+													</activity>
+												</nextlist>
+											</activity>
+										</nextlist>
+									</activity>
+									<activity name="PeerActivity" title="null" isCircle="true">
+									</activity>
+									<activity name="NewPicBrowseActivity" title="/" isCircle="true">
+									</activity>
+									<activity name="ContactPersonActivity" title="null" >
+										<nextlist>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="PeerTopicActivity" title="...#\n\" >
+								<nextlist>
+									<activity name="SpeechActivity" title="null" isCircle="true">
+									</activity>
+									<activity name="LoginActivity" title="null" >
+										<nextlist>
+											<activity name="IndexActivity" title="null" isCircle="true">
+											</activity>
+											<activity name="PhoneNumberRegisterActivity" title="注册注册\注册新房帮\" >
+												<nextlist>
+													<activity name="SelectCityActivity" title="选择城市" >
+														<nextlist>
+														</nextlist>
+													</activity>
+													<activity name="ResetPasswordActivity" title="找回密码" >
+														<nextlist>
+															<activity name="IndexActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="ComplementUserInfoActivity" title="补全信息" >
+																<nextlist>
+																	<activity name="IndexActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" >
+																		<nextlist>
+																			<activity name="FeedbackActivity" title="意见反馈" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="UpdatePayPwdActivity" title="修改密码" >
+																				<nextlist>
+																					<activity name="MyMoneyPayPwdActivity" title="支付密码" >
+																						<nextlist>
+																							<activity name="IndexActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="RechargeActivity" title="充值" >
+																								<nextlist>
+																									<activity name="FinancialListActivity" title="资金明细" >
+																										<nextlist>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="MyMoneyTakeCashActivity" title="提现" >
+																								<nextlist>
+																									<activity name="MyMoneyPayPwdActivity" title="支付密码" isCircle="true">
+																									</activity>
+																									<activity name="AddBankCardActivity" title="添加银行卡" >
+																										<nextlist>
+																										</nextlist>
+																									</activity>
+																									<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																									</activity>
+																									<activity name="CertificationActivity" title="实名认证" >
+																										<nextlist>
+																											<activity name="CertificationSuccessActivity" title="实名认证" >
+																												<nextlist>
+																													<activity name="AddBankCardActivity" title="添加银行卡" isCircle="true">
+																													</activity>
+																													<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="CertificationFailActivity" title="实名认证" >
+																												<nextlist>
+																													<activity name="CertificationApplyActivity" title="实名认证申诉" >
+																														<nextlist>
+																														</nextlist>
+																													</activity>
+																													<activity name="CertificationActivity" title="实名认证" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="MyWalletActivity" title="null" >
+																								<nextlist>
+																									<activity name="MyMoneyPayPwdActivity" title="支付密码" isCircle="true">
+																									</activity>
+																									<activity name="MyBankCardActivity" title="我的银行卡" >
+																										<nextlist>
+																											<activity name="AlterBankCardActivity" title="删除银行卡" >
+																												<nextlist>
+																													<activity name="ChoseBankActivity" title="选择银行" >
+																														<nextlist>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="AddBankCardActivity" title="添加银行卡" isCircle="true">
+																											</activity>
+																											<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																											</activity>
+																											<activity name="CertificationActivity" title="实名认证" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="FinancialListActivity" title="资金明细" isCircle="true">
+																									</activity>
+																									<activity name="CertificationSuccessActivity" title="实名认证" isCircle="true">
+																									</activity>
+																									<activity name="RechargeActivity" title="充值" isCircle="true">
+																									</activity>
+																									<activity name="MyMoneyTakeCashActivity" title="提现" isCircle="true">
+																									</activity>
+																									<activity name="MyBonusActivity" title="null" >
+																										<nextlist>
+																											<activity name="BiddingActivity" title="null" >
+																												<nextlist>
+																													<activity name="BidEffectActivity" title="榜首400来电" >
+																														<nextlist>
+																														</nextlist>
+																													</activity>
+																													<activity name="TransactionPasswordActivity" title="确认交易密码" >
+																														<nextlist>
+																															<activity name="BiddingResultActivity" title="null" >
+																																<nextlist>
+																																	<activity name="BidEffectActivity" title="榜首400来电" isCircle="true">
+																																	</activity>
+																																	<activity name="TransactionPasswordActivity" title="确认交易密码" isCircle="true">
+																																	</activity>
+																																	<activity name="BidhistoryListActivity" title="竞标历史" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="BidAboutInfoActivity" title="榜首竞标规则" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="BiddingActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="BidhistoryListActivity" title="竞标历史" isCircle="true">
+																													</activity>
+																													<activity name="MyBonusActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="BiddingResultActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="LoginActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="BidAboutInfoActivity" title="榜首竞标规则" isCircle="true">
+																													</activity>
+																													<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="LoginActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="BiddingActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="LoginActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="UpdatePayPwdActivity" title="修改密码" isCircle="true">
+																									</activity>
+																									<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																									</activity>
+																									<activity name="CertificationActivity" title="实名认证" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="AttestStatusActivity" title="null" >
+																<nextlist>
+																	<activity name="BindProjectActivity" title="绑定楼盘" >
+																		<nextlist>
+																			<activity name="AttestStatusActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="IndexActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="SelectCityActivity" title="选择城市" isCircle="true">
+																	</activity>
+																	<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+														</nextlist>
+													</activity>
+													<activity name="SelectDistrictActivity" title="选择区县" >
+														<nextlist>
+															<activity name="SelectComareaActivity" title="选择商圈" >
+																<nextlist>
+																</nextlist>
+															</activity>
+														</nextlist>
+													</activity>
+													<activity name="LoginActivity" title="null" isCircle="true">
+													</activity>
+													<activity name="MainActivity" title="null" >
+														<nextlist>
+															<activity name="RechargeActivity" title="充值" isCircle="true">
+															</activity>
+															<activity name="ComplementUserInfoActivity" title="补全信息" isCircle="true">
+															</activity>
+															<activity name="BangBrowserActivity" title="null" >
+																<nextlist>
+																	<activity name="MainActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Sale_TransactionEntryActivity" title="交易管理" >
+																<nextlist>
+																	<activity name="EB_Sale_IntentContractListActivity" title="意向列表" >
+																		<nextlist>
+																			<activity name="EB_Sale_IntentContractDetailActivity" title="意向合同" >
+																				<nextlist>
+																					<activity name="EB_Sale_CommCollectActivity" title="收意向金收定金\收佣金\POS支付\" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_AchieveCommissionActivity" title="收佣金收租金\" >
+																				<nextlist>
+																					<activity name="EB_Rent_SelectContractActivity" title="合同编号 " >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_Rent_CommCollectActivity" title="POS支付" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="LoanHomeActivity" title="金融贷款" >
+																		<nextlist>
+																			<activity name="MyRewardActivity" title="我的奖励" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="MyLoanListActivity" title="报单记录" >
+																				<nextlist>
+																					<activity name="MyLoanInfoActivity" title="贷款申请详情" >
+																						<nextlist>
+																							<activity name="OrderSignSuccessActivity" title="已预约面签" >
+																								<nextlist>
+																									<activity name="OrderSignActivity" title="预约面签" >
+																										<nextlist>
+																											<activity name="OrderSignSuccessActivity" title="已预约面签" isCircle="true">
+																											</activity>
+																											<activity name="SelectCityActivity" title="选择城市" isCircle="true">
+																											</activity>
+																											<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="OrderSignActivity" title="预约面签" isCircle="true">
+																							</activity>
+																							<activity name="BackReasonActivity" title="终止原因" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																							<activity name="LoanProcessListActivity" title="放款流程" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																							<activity name="UploadLoanMaterialActivity" title="上传贷款材料" >
+																								<nextlist>
+																									<activity name="LoanMaterialActivity" title="材料贷款材料\" >
+																										<nextlist>
+																											<activity name="LoanMaterialUploadActivity" title="上传材料" >
+																												<nextlist>
+																													<activity name="ShowBigPicActivity" title="null" >
+																														<nextlist>
+																														</nextlist>
+																													</activity>
+																													<activity name="GetImageNewActivity" title="null" >
+																														<nextlist>
+																															<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="CompleteLoanInformationActivity" title="完善贷款信息" >
+																								<nextlist>
+																									<activity name="SelectCityActivity" title="选择城市" isCircle="true">
+																									</activity>
+																									<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="WebActivity" title="null" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="OnlineLoanActivity" title="按揭贷款二手房首付贷\赎楼贷款\尾款垫资\新房首付贷\" >
+																				<nextlist>
+																					<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="LoanSchemeActivity" title="贷款方案" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="WebActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="SfdCalculatorActivity" title="首付贷计算器" >
+																						<nextlist>
+																							<activity name="SfdCalculatingResultActivity" title="计算结果" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="SouFunPhoneActivity" title="设置搜房金融联络人" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="LoanComputeActivity" title="房贷计算器" >
+																						<nextlist>
+																							<activity name="LoanResultActivity" title="商业贷款计算结果公积金贷款计算结果\组合贷款计算结果\" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="MyLoanInfoActivity" title="贷款申请详情" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_TradeEarnestListActivity" title="定金列表" >
+																		<nextlist>
+																			<activity name="EB_Sale_ContractInformationActivity" title="合同详情" >
+																				<nextlist>
+																					<activity name="FileDownloadActivity" title="null" >
+																						<nextlist>
+																							<activity name="MuPDFActivity" title="null" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_Sale_ContractBackupTypeListActivity" title="提交备件" >
+																						<nextlist>
+																							<activity name="EB_Sale_ContractBackupPicShowActivity" title="null" >
+																								<nextlist>
+																									<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="EB_Sale_ContractBackupPicUploadActivity" title="null" >
+																										<nextlist>
+																											<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="GetImageNewActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_Sale_CommCollectActivity" title="收意向金收定金\收佣金\POS支付\" isCircle="true">
+																					</activity>
+																					<activity name="OnlineLoanActivity" title="按揭贷款二手房首付贷\赎楼贷款\尾款垫资\新房首付贷\" isCircle="true">
+																					</activity>
+																					<activity name="EB_Sale_ElectronContractDetailActivity" title="电子合同合同信息\" >
+																						<nextlist>
+																							<activity name="FileDownloadActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="EB_Sale_ElectronContractSignActivity" title="合同文件" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																							<activity name="EB_Sale_EditCommissionActivity" title="修改合同" >
+																								<nextlist>
+																									<activity name="EB_Sale_CommCollectActivity" title="收意向金收定金\收佣金\POS支付\" isCircle="true">
+																									</activity>
+																									<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" >
+																										<nextlist>
+																										</nextlist>
+																									</activity>
+																									<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" >
+																										<nextlist>
+																											<activity name="EB_Rent_HouseDetailActivity" title="房源详情" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_Rent_FangYuanGuanLi_SearchActivity" title="搜索房源搜索房源\搜索房间\" >
+																												<nextlist>
+																													<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_FangYuan_SearchActivity" title="房源搜索搜索房源\搜索带看房源\搜索房间\" >
+																												<nextlist>
+																													<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_Sale_HouseDetailActivity" title="null" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_Sale_FangYuanGuanLi_SearchActivity" title="房源搜索" >
+																												<nextlist>
+																													<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																													</activity>
+																													<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="MyLoanInfoActivity" title="贷款申请详情" isCircle="true">
+																					</activity>
+																					<activity name="EB_Sale_EditCommissionActivity" title="修改合同" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Sale_EarnestContractDetailActivity" title="定金合同" >
+																				<nextlist>
+																					<activity name="EB_Sale_CommCollectActivity" title="收意向金收定金\收佣金\POS支付\" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_AchieveCommissionActivity" title="录入合同" >
+																		<nextlist>
+																			<activity name="EB_Sale_CommCollectActivity" title="收意向金收定金\收佣金\POS支付\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Sale_ContractInformationActivity" title="合同详情" isCircle="true">
+																			</activity>
+																			<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																			</activity>
+																			<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_IntentCommissionActivity" title="收意向金收定金\" >
+																		<nextlist>
+																			<activity name="EB_Sale_CommCollectActivity" title="收意向金收定金\收佣金\POS支付\" isCircle="true">
+																			</activity>
+																			<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																			</activity>
+																			<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_ContractManageActivity" title="合同列表交易管理\" >
+																		<nextlist>
+																			<activity name="EB_Sale_AchieveCommissionActivity" title="录入合同" isCircle="true">
+																			</activity>
+																			<activity name="EB_Sale_ContractInformationActivity" title="合同详情" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="BangBrowserActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Rent_FangYuanGuanLiActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																	</activity>
+																	<activity name="EB_Rent_FangYuanGuanLi_SearchActivity" title="搜索房源搜索房源\搜索房间\" isCircle="true">
+																	</activity>
+																	<activity name="EB_Rent_HouseAddEditActivity" title="新增房源修改房源\修改房源\" >
+																		<nextlist>
+																			<activity name="EB_Rent_MyTransactionListActivity" title="我的交易" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_HouseAddEditActivity" title="新增房源修改房源\修改房源\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_HouseImgUpLoadActivity" title="上传房源图片" >
+																				<nextlist>
+																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="GetImageNewActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_RoomAddActivity" title="新增房间房间详情\" >
+																				<nextlist>
+																					<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_RoomAddActivity" title="新增房间房间详情\" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="LoanHomeActivity" title="金融贷款" isCircle="true">
+															</activity>
+															<activity name="SellHouseAssistantIndexActivity" title="卖房助手" >
+																<nextlist>
+																	<activity name="TaxComputeActivity" title="税费计算器" >
+																		<nextlist>
+																			<activity name="TaxResultActivity" title="计算结果" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="CalendarRemindTabActivity" title="null" >
+																		<nextlist>
+																			<activity name="CalendarRemindActivity" title="null" >
+																				<nextlist>
+																					<activity name="CalenderRemindDetailActivity" title="内容详情" >
+																						<nextlist>
+																							<activity name="CloudCustomerDetailActivity" title="订单详情" >
+																								<nextlist>
+																									<activity name="CloudCustomerInputActivity" title="客户资料" >
+																										<nextlist>
+																											<activity name="CloudLocationCityListActivity" title="意向区域" >
+																												<nextlist>
+																													<activity name="CloudLocationCityShangquanListActivity" title="null" >
+																														<nextlist>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="LoginActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ChannelCustomerActivity" title="返回抢客户\" >
+																												<nextlist>
+																													<activity name="RobRecordActivity" title="抢客记录" >
+																														<nextlist>
+																															<activity name="CloudCustomerDetailActivity" title="订单详情" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="LoginActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="CloudCustomerTixingActivity" title="添加提醒" >
+																										<nextlist>
+																										</nextlist>
+																									</activity>
+																									<activity name="CloudCustomerGenjinWebActivity" title="null" >
+																										<nextlist>
+																											<activity name="AblumsListActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ChatActivity" title="null" >
+																										<nextlist>
+																											<activity name="ChatUserDetailDataActivity" title="null" >
+																												<nextlist>
+																													<activity name="ChatActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="PeerPicDetailActivity" title="null" >
+																														<nextlist>
+																															<activity name="ChatSelectPersonActivity" title="选择" >
+																																<nextlist>
+																																</nextlist>
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="ChatListActivity" title="null" >
+																														<nextlist>
+																															<activity name="ChatActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="ChatUserDetailDataActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="AnnouncementActivity" title="公告搜房公告\" >
+																																<nextlist>
+																																	<activity name="LoginActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="XfWapActivity" title="活动详情" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="ChatAddFriendActivity" title="添加好友" >
+																																<nextlist>
+																																	<activity name="ChatUserDetailDataActivity" title="null" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="ZiXunListActivity" title="资讯" >
+																																<nextlist>
+																																	<activity name="XfWapDetailActivity" title="资讯详情链接详情\活动详情\资讯详情\链接详情\活动详情\" >
+																																		<nextlist>
+																																			<activity name="MyCollectionPageActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="XfWapDetailActivity" title="资讯详情链接详情\活动详情\资讯详情\链接详情\活动详情\" isCircle="true">
+																																					</activity>
+																																					<activity name="MyCollectionDetailActivity" title="null" >
+																																						<nextlist>
+																																							<activity name="XfWapDetailActivity" title="资讯详情链接详情\活动详情\资讯详情\链接详情\活动详情\" isCircle="true">
+																																							</activity>
+																																							<activity name="ChatVideoPlayActivity" title="null" >
+																																								<nextlist>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="MyCollectionPageActivity" title="null" isCircle="true">
+																																							</activity>
+																																							<activity name="PeerPicDetailActivity" title="null" isCircle="true">
+																																							</activity>
+																																							<activity name="ChatSelectPersonActivity" title="选择" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="LoanWebViewActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="AblumsListActivity" title="null" isCircle="true">
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="LoginActivity" title="null" isCircle="true">
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="RadarAndRecommandListActivity" title="找房雷达潜客推荐\新房帮小秘书\" >
+																																<nextlist>
+																																	<activity name="ChatActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="SecretaryActivity" title="抢客户客户跟进\客户流转\在售楼盘动态\帮你买房\更换号码\" >
+																																		<nextlist>
+																																			<activity name="CloudCustomerInputActivity" title="客户资料" isCircle="true">
+																																			</activity>
+																																			<activity name="AskActivity" title="问答" >
+																																				<nextlist>
+																																					<activity name="LoginActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="AnswerActivity" title="的提问" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="PeerActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="MyCustomersActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="XfWapSoufunGuWenActivity" title="null" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="GiveUpCustomerActivity" title="放弃客户记录" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="QRcodeOrderActivity" title="扫码下单" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="CloudCustomerEntryActivity" title="录入订单" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="CustomerInputActivity" title="添加客户返回\" >
+																																						<nextlist>
+																																							<activity name="MyCustomersActivity" title="null" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="LoginActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="AllMessageCustomerListActivity" title="选择联系人" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="ChannelCustomerActivity" title="返回抢客户\" isCircle="true">
+																																			</activity>
+																																			<activity name="MyScoreActivity" title="我的积分" >
+																																				<nextlist>
+																																					<activity name="ScoreDetailActivity" title="积分明细" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="LoginActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="ScoreListActivity" title="查看排行" >
+																																						<nextlist>
+																																							<activity name="LoupanInfoWapActivity" title="楼盘信息" >
+																																								<nextlist>
+																																								</nextlist>
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="CloudCustomerDetailActivity" title="订单详情" isCircle="true">
+																																			</activity>
+																																			<activity name="FriendsDetailActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="XfWapDetailActivity" title="资讯详情链接详情\活动详情\资讯详情\链接详情\活动详情\" isCircle="true">
+																																					</activity>
+																																					<activity name="ChatActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="PeerActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="PeerTopicActivity" title="...#\n\" isCircle="true">
+																																					</activity>
+																																					<activity name="ChatUserDetailDataActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="LoginActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="XfWapActivity" title="活动详情" isCircle="true">
+																																					</activity>
+																																					<activity name="PeerPicDetailActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="MyCollectionDetailActivity" title="null" isCircle="true">
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="MyBonusActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="EntrustDetailActivity" title="帮你买房-详情" >
+																																				<nextlist>
+																																					<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+																																					</activity>
+																																					<activity name="CustomerInputActivity" title="添加客户返回\" isCircle="true">
+																																					</activity>
+																																					<activity name="WebOnSaleProDetailsActivity" title="null" >
+																																						<nextlist>
+																																							<activity name="HouseManagerActivity" title="在售房源" >
+																																								<nextlist>
+																																									<activity name="HouseResourceDetailActivity" title="房源详情" >
+																																										<nextlist>
+																																											<activity name="ChatActivity" title="null" isCircle="true">
+																																											</activity>
+																																											<activity name="CloudCustomerDetailActivity" title="订单详情" isCircle="true">
+																																											</activity>
+																																											<activity name="ScoopUpCustomerDetailActivity" title="捞客详情" >
+																																												<nextlist>
+																																													<activity name="CloudCustomerInputActivity" title="客户资料" isCircle="true">
+																																													</activity>
+																																													<activity name="PublicCustomerPoolActivity" title="null" >
+																																														<nextlist>
+																																															<activity name="LaoKeRecordActivity" title="捞客记录" >
+																																																<nextlist>
+																																																	<activity name="CustomerNewDetailActivity" title="客户详情" >
+																																																		<nextlist>
+																																																			<activity name="CloudCustomerInputActivity" title="客户资料" isCircle="true">
+																																																			</activity>
+																																																			<activity name="CloudCustomerTixingActivity" title="添加提醒" isCircle="true">
+																																																			</activity>
+																																																			<activity name="ConsumerBehaviorFooterActivity" title="客户行为足迹" >
+																																																				<nextlist>
+																																																					<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																																																					</activity>
+																																																				</nextlist>
+																																																			</activity>
+																																																			<activity name="CloudCustomerSendMsgActivity" title="免费短信" >
+																																																				<nextlist>
+																																																					<activity name="CloudCustomerMsgModellistActivity" title="短信模板" >
+																																																						<nextlist>
+																																																							<activity name="CloudCustomerMsgAddModelActivity" title="添加自定义短信模板" >
+																																																								<nextlist>
+																																																								</nextlist>
+																																																							</activity>
+																																																						</nextlist>
+																																																					</activity>
+																																																					<activity name="CloudCustomerMsgRecordllistActivity" title="免费短信记录" >
+																																																						<nextlist>
+																																																						</nextlist>
+																																																					</activity>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="TaoCustomerActivity" title="选择楼盘" >
+																																																<nextlist>
+																																																	<activity name="ScoopUpCustomerDetailActivity" title="捞客详情" isCircle="true">
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="ScoopUpCustomerDetailActivity" title="捞客详情" isCircle="true">
+																																															</activity>
+																																															<activity name="WebPubCPGuiZeActivity" title="公客池规则" >
+																																																<nextlist>
+																																																</nextlist>
+																																															</activity>
+																																														</nextlist>
+																																													</activity>
+																																													<activity name="WebOnSaleProDetailsActivity" title="null" isCircle="true">
+																																													</activity>
+																																												</nextlist>
+																																											</activity>
+																																											<activity name="WebOnSaleProDetailsActivity" title="null" isCircle="true">
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="LookHouseListActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="XfWapActivity" title="活动详情" isCircle="true">
+																																					</activity>
+																																					<activity name="VisitDetailsActivity" title="看房团详情" >
+																																						<nextlist>
+																																							<activity name="ClientDetialActivity" title="客户详情" >
+																																								<nextlist>
+																																									<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="UploadImageLpListActivity" title="选择楼盘" >
+																																								<nextlist>
+																																									<activity name="UploadImageActivity" title="上传活动照片" >
+																																										<nextlist>
+																																											<activity name="AblumsListActivity" title="null" isCircle="true">
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="SendSMSMainActivity" title="群发短信通知" >
+																																								<nextlist>
+																																									<activity name="SendSMSActivity" title="选择收件人" >
+																																										<nextlist>
+																																											<activity name="SendSMSMainActivity" title="群发短信通知" isCircle="true">
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="LoginActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="BiddingActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																																			</activity>
+																																			<activity name="VisitDetailsActivity" title="看房团详情" isCircle="true">
+																																			</activity>
+																																			<activity name="WebOnSaleProDetailsActivity" title="null" isCircle="true">
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="AttestStatusActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+																											</activity>
+																											<activity name="MainActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ChatSelectPersonActivity" title="选择" isCircle="true">
+																											</activity>
+																											<activity name="MainTabActivity" title="null" >
+																												<nextlist>
+																													<activity name="ClientActivity" title="" >
+																														<nextlist>
+																															<activity name="ClientDetailActivity" title="返回" >
+																																<nextlist>
+																																	<activity name="CorporationActivity" title="关闭" >
+																																		<nextlist>
+																																			<activity name="BarCodeCompanyInfoActivity" title="返回" >
+																																				<nextlist>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="HouseSpecialPriceDetailActivity" title="返回返回\" >
+																																				<nextlist>
+																																					<activity name="HouseDetailActivity" title="返回" >
+																																						<nextlist>
+																																							<activity name="HouseDetailHouseInfoActivity" title="返回" >
+																																								<nextlist>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="CommissionActivity" title="返回返回\返回\" >
+																																								<nextlist>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="SaleHouseActivity" title="返回" >
+																																								<nextlist>
+																																									<activity name="HouseSpecialPriceDetailActivity" title="返回返回\" isCircle="true">
+																																									</activity>
+																																									<activity name="WebViewActivity" title="返回返回\\返回\返回\返回\,\新房通\\" >
+																																										<nextlist>
+																																											<activity name="HouseDetailActivity" title="返回" isCircle="true">
+																																											</activity>
+																																											<activity name="MyWalletActivity" title="null" isCircle="true">
+																																											</activity>
+																																											<activity name="LoginActivity" title="null" isCircle="true">
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="RecommandActivity" title="返回" >
+																																								<nextlist>
+																																									<activity name="CorporationActivity" title="关闭" isCircle="true">
+																																									</activity>
+																																									<activity name="ToBePartnerActivity" title="关闭" >
+																																										<nextlist>
+																																											<activity name="HouseSpecialPriceDetailActivity" title="返回返回\" isCircle="true">
+																																											</activity>
+																																											<activity name="HaveBeenParnterActivity" title="返回返回\" >
+																																												<nextlist>
+																																													<activity name="AgentInfoActivity" title="我的搜房帮" >
+																																														<nextlist>
+																																															<activity name="SecuritySettingActivity" title="安全设置" >
+																																																<nextlist>
+																																																	<activity name="MyBankCardActivity" title="我的银行卡" isCircle="true">
+																																																	</activity>
+																																																	<activity name="SettingPayPwdActivity" title="设置支付密码" >
+																																																		<nextlist>
+																																																			<activity name="ForgetPwdActivity" title="忘记密码" >
+																																																				<nextlist>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="IdentityVerifyActivity" title="身份认证" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="PhoneVerifyActivity" title="手机验证" >
+																																																		<nextlist>
+																																																			<activity name="HouseQuestionDetailActivity" title="我的提问的提问\的提问\" >
+																																																				<nextlist>
+																																																					<activity name="HouseQuestionDetailActivity" title="我的提问的提问\的提问\" isCircle="true">
+																																																					</activity>
+																																																					<activity name="PhoneVerifyActivity" title="手机验证" isCircle="true">
+																																																					</activity>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="RechargeActivity" title="充值" isCircle="true">
+																																															</activity>
+																																															<activity name="RechargeRecordsActivity" title="交易记录红包明细\积分明细\" >
+																																																<nextlist>
+																																																	<activity name="MyOrderDetailsActivity" title="账单详情" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="TradeDetailsActivity" title="账单详情" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="HuodongWebActivity" title="null" >
+																																																		<nextlist>
+																																																			<activity name="RechargeActivity" title="充值" isCircle="true">
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="MyWallet_PaymentDetailsActivity" title="收支明细" >
+																																																		<nextlist>
+																																																			<activity name="TradeDetailsActivity" title="账单详情" isCircle="true">
+																																																			</activity>
+																																																			<activity name="CashHistoryDetailActivity" title="卖新房钱包结余" >
+																																																				<nextlist>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="PersonalActivity" title="" >
+																																																<nextlist>
+																																																	<activity name="FeedbackActivity" title="意见反馈" isCircle="true">
+																																																	</activity>
+																																																	<activity name="MyEvaluateActivity" title="返回" >
+																																																		<nextlist>
+																																																			<activity name="EvaluateRegulateActivity" title="返回" >
+																																																				<nextlist>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="ToBePartnerActivity" title="关闭" isCircle="true">
+																																																	</activity>
+																																																	<activity name="AboutMeActivity" title="返回" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="AgentInfoActivity" title="我的搜房帮" isCircle="true">
+																																																	</activity>
+																																																	<activity name="RankActivity" title="返回" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="BarCodeStoreInfoActivity" title="返回" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="CorporationActivity" title="关闭" isCircle="true">
+																																																	</activity>
+																																																	<activity name="StoresToBindActivity" title="关闭" >
+																																																		<nextlist>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="LoginActivity" title="null" isCircle="true">
+																																																	</activity>
+																																																	<activity name="CaptureActivity" title="扫一扫" >
+																																																		<nextlist>
+																																																			<activity name="ScanResultActivity" title="详细资料" >
+																																																				<nextlist>
+																																																				</nextlist>
+																																																			</activity>
+																																																			<activity name="ScanActivity" title="扫描结果" >
+																																																				<nextlist>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="HuodongWebActivity" title="null" isCircle="true">
+																																																	</activity>
+																																																	<activity name="WebViewActivity" title="返回返回\\返回\返回\返回\,\新房通\\" isCircle="true">
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="WalletRedPacketsActivity" title="红包" >
+																																																<nextlist>
+																																																	<activity name="RechargeRecordsActivity" title="交易记录红包明细\积分明细\" isCircle="true">
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="BangBrowserActivity" title="null" isCircle="true">
+																																															</activity>
+																																															<activity name="MyWallet_PaymentDetailsActivity" title="收支明细" isCircle="true">
+																																															</activity>
+																																															<activity name="AttestStatusActivity" title="null" isCircle="true">
+																																															</activity>
+																																															<activity name="PublishBuyRecordsActivity" title="发布量购买记录" >
+																																																<nextlist>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="SetBelongCompanyActivity" title="设置所属公司" >
+																																																<nextlist>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																																															</activity>
+																																															<activity name="MyQRCodeActivity" title="我的二维码" >
+																																																<nextlist>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="WalletBalanceActivity" title="可用余额" >
+																																																<nextlist>
+																																																	<activity name="WithDrawMoneyActivity" title="提现" >
+																																																		<nextlist>
+																																																			<activity name="TiXianListActivity" title="提现明细" >
+																																																				<nextlist>
+																																																				</nextlist>
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="SecuritySettingActivity" title="安全设置" isCircle="true">
+																																																	</activity>
+																																																	<activity name="RechargeActivity" title="充值" isCircle="true">
+																																																	</activity>
+																																																	<activity name="TiXianListActivity" title="提现明细" isCircle="true">
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																															<activity name="WalletPointActivity" title="我的积分" >
+																																																<nextlist>
+																																																	<activity name="RechargeRecordsActivity" title="交易记录红包明细\积分明细\" isCircle="true">
+																																																	</activity>
+																																																	<activity name="WalletAboutPointActivity" title="了解积分" >
+																																																		<nextlist>
+																																																			<activity name="BangBrowserActivity" title="null" isCircle="true">
+																																																			</activity>
+																																																		</nextlist>
+																																																	</activity>
+																																																	<activity name="BangBrowserActivity" title="null" isCircle="true">
+																																																	</activity>
+																																																</nextlist>
+																																															</activity>
+																																														</nextlist>
+																																													</activity>
+																																												</nextlist>
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																									<activity name="BaoBeiSuccessActivity" title="返回\返回\返回\" >
+																																										<nextlist>
+																																											<activity name="MainTabActivity" title="null" isCircle="true">
+																																											</activity>
+																																											<activity name="ClientDetailActivity" title="返回" isCircle="true">
+																																											</activity>
+																																											<activity name="RecommandActivity" title="返回" isCircle="true">
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																									<activity name="SelectProjectActivity" title="返回" >
+																																										<nextlist>
+																																											<activity name="RecommandActivity" title="返回" isCircle="true">
+																																											</activity>
+																																										</nextlist>
+																																									</activity>
+																																									<activity name="MessageInviteActivity" title="短信邀请" >
+																																										<nextlist>
+																																										</nextlist>
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="NewPicBrowseActivity" title="/" isCircle="true">
+																																							</activity>
+																																							<activity name="CorporationActivity" title="关闭" isCircle="true">
+																																							</activity>
+																																							<activity name="OnlineLoanActivity" title="按揭贷款二手房首付贷\赎楼贷款\尾款垫资\新房首付贷\" isCircle="true">
+																																							</activity>
+																																							<activity name="HouseDetailMapActivity" title="返回" >
+																																								<nextlist>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="ToBePartnerActivity" title="关闭" isCircle="true">
+																																							</activity>
+																																							<activity name="FieldRoasterActivity" title="返回" >
+																																								<nextlist>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="GongGaoDetailActivity" title="返回返回\返回\返回\" >
+																																								<nextlist>
+																																									<activity name="HouseDetailActivity" title="返回" isCircle="true">
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																							<activity name="AlreadyRecommandActivity" title="返回" >
+																																								<nextlist>
+																																									<activity name="ClientDetailActivity" title="返回" isCircle="true">
+																																									</activity>
+																																									<activity name="RecommandActivity" title="返回" isCircle="true">
+																																									</activity>
+																																								</nextlist>
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="CaptureActivity" title="扫一扫" isCircle="true">
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="ToBePartnerActivity" title="关闭" isCircle="true">
+																																	</activity>
+																																	<activity name="BaoBeiSuccessActivity" title="返回\返回\返回\" isCircle="true">
+																																	</activity>
+																																	<activity name="HaveBeenParnterActivity" title="返回返回\" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="RecommandActivity" title="返回" isCircle="true">
+																															</activity>
+																															<activity name="CorporationActivity" title="关闭" isCircle="true">
+																															</activity>
+																															<activity name="ToBePartnerActivity" title="关闭" isCircle="true">
+																															</activity>
+																															<activity name="BaoBeiSuccessActivity" title="返回\返回\返回\" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="SaleHouseActivity" title="返回" isCircle="true">
+																													</activity>
+																													<activity name="PersonalActivity" title="" isCircle="true">
+																													</activity>
+																													<activity name="HouseDynamicListActivity" title="" >
+																														<nextlist>
+																															<activity name="SearchOfHouseDynamicActivity" title="返回" >
+																																<nextlist>
+																																	<activity name="GongGaoDetailActivity" title="返回返回\返回\返回\" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="GongGaoDetailActivity" title="返回返回\返回\返回\" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="HomeActivity" title="返回" >
+																														<nextlist>
+																															<activity name="HouseDetailActivity" title="返回" isCircle="true">
+																															</activity>
+																															<activity name="CorporationActivity" title="关闭" isCircle="true">
+																															</activity>
+																															<activity name="ToBePartnerActivity" title="关闭" isCircle="true">
+																															</activity>
+																															<activity name="SearchOfHomeActivity" title="null" >
+																																<nextlist>
+																																	<activity name="HouseDetailActivity" title="返回" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="HouseSpecialPriceDetailActivity" title="返回返回\" isCircle="true">
+																															</activity>
+																															<activity name="RankActivity" title="返回" isCircle="true">
+																															</activity>
+																															<activity name="ChangeCityActivity" title="返回" >
+																																<nextlist>
+																																</nextlist>
+																															</activity>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="XfWapDetailActivity" title="资讯详情链接详情\活动详情\资讯详情\链接详情\活动详情\" isCircle="true">
+																											</activity>
+																											<activity name="EditReplyActivity" title="快捷信息" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="MyCollectionPageActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ChatVideoPlayActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ChatPicAlbumActivity" title="//\/\/\/\/\/\/\" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="LoginActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="CustomerInputActivity" title="添加客户返回\" isCircle="true">
+																											</activity>
+																											<activity name="ChatListActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="CloudCustomerGenJinActivity" title="订单跟进客户跟进\客户跟进\" >
+																										<nextlist>
+																											<activity name="AblumsListActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="CloudCustomerGenjinhuxingListActivity" title="业态/户型选择业态/户型选择\" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="CloudJinrongWebViewActivity" title="null" >
+																										<nextlist>
+																										</nextlist>
+																									</activity>
+																									<activity name="LoginActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="CloudCustomerSendMsgActivity" title="免费短信" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="CustomerDetailActivity" title="返回客户详情\客户详情\客户详情\客户详情\" >
+																								<nextlist>
+																									<activity name="ChatActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="CloudCustomerDetailActivity" title="订单详情" isCircle="true">
+																									</activity>
+																									<activity name="MyCustomersActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+																									</activity>
+																									<activity name="CustomerInputActivity" title="添加客户返回\" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="CalendarRemindUpdateOrAddActivity" title="新建提醒编辑\新建提醒\" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="CalendarRemindUpdateOrAddActivity" title="新建提醒编辑\新建提醒\" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="SendMsgHomeActivity" title="给客户发短信" >
+																		<nextlist>
+																			<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="AssessActivity" title="null" >
+																		<nextlist>
+																			<activity name="AssessListActivity" title="选择要评估的楼盘" >
+																				<nextlist>
+																					<activity name="AssessInputActivity" title="录入房源信息" >
+																						<nextlist>
+																							<activity name="AssessInputActivity" title="录入房源信息" isCircle="true">
+																							</activity>
+																							<activity name="AssessDetailActivity" title="评估详情" >
+																								<nextlist>
+																									<activity name="AssessInputActivity" title="录入房源信息" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="AssessHistoryActivity" title="评估历史" >
+																				<nextlist>
+																					<activity name="AssessDetailActivity" title="评估详情" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="LoanComputeActivity" title="房贷计算器" isCircle="true">
+																	</activity>
+																	<activity name="CaptureActivity" title="扫一扫" isCircle="true">
+																	</activity>
+																	<activity name="XQListActivity" title="楼盘字典" >
+																		<nextlist>
+																			<activity name="XQDetailsActivity" title="null" >
+																				<nextlist>
+																					<activity name="XQListActivity" title="楼盘字典" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="XQHistoryActivity" title="收藏列表" >
+																				<nextlist>
+																					<activity name="XQDetailsActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="SSPListNewActivity" title="null" >
+																		<nextlist>
+																			<activity name="CSInputVideoPlayActivity" title="null" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="SSPPictureActivity" title="null" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="RandomShootingActivity" title="null" >
+																				<nextlist>
+																					<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="ChatVideoPlayActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="SSPPictureActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="XQListActivity" title="楼盘字典" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="CalendarRemindTabActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="GongZuoLiangActivity" title="工作量提醒" >
+																<nextlist>
+																</nextlist>
+															</activity>
+															<activity name="HouseMgrRentActivity" title="管理出租房源" >
+																<nextlist>
+																</nextlist>
+															</activity>
+															<activity name="ChangePasswordActivity" title="null" >
+																<nextlist>
+																</nextlist>
+															</activity>
+															<activity name="BuyHomeActivity" title="购买产品" >
+																<nextlist>
+																	<activity name="RechargeRecordsActivity" title="交易记录红包明细\积分明细\" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Rent_ZWServiceListActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_Rent_ZWServiceFollowInfoActivity" title="跟进信息" >
+																		<nextlist>
+																			<activity name="ShowImagesActivity" title="全部图片\/\" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="GetPhoneImageActivity" title="null" >
+																				<nextlist>
+																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_ZWServiceSearchActivity" title="合同搜索" >
+																		<nextlist>
+																			<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_ContractDetailActivity" title="合同信息" >
+																		<nextlist>
+																			<activity name="EB_Rent_ContractRejectActivity" title="驳回原因" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="Eb_Rent_CommissionRecordActivity" title="收款记录" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_ContractBackupTypeListActivity" title="上传备件" >
+																				<nextlist>
+																					<activity name="EB_Rent_ContractBackPicUploadActivity" title="null" >
+																						<nextlist>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="GetImageNewActivity" title="null" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_JuJianContractDetailActivity" title="合同信息" >
+																		<nextlist>
+																			<activity name="Eb_Rent_CommissionRecordActivity" title="收款记录" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_ContractAgentInfoActivity" title="代理人信息" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Sale_KeYuanGuanLiActivity" title="null" >
+																<nextlist>
+																	<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_NewOrUpdateClientInfoActivity" title="新增客户修改客户信息\" >
+																		<nextlist>
+																			<activity name="EB_Sale_CustomerDetailActivity" title="null" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_GetPhoneListActivity" title="查看电话" >
+																		<nextlist>
+																			<activity name="EB_Sale_FollowCustomerActivity" title="写跟进" >
+																				<nextlist>
+																					<activity name="HouseConnectItemActivity" title="null" >
+																						<nextlist>
+																							<activity name="QMemberDetailsActivity" title="null" >
+																								<nextlist>
+																									<activity name="ChatActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="AddRecommendActivity" title="选择联系人" >
+																										<nextlist>
+																											<activity name="QChatListActivity" title="群聊选择一个群\" >
+																												<nextlist>
+																													<activity name="QDetailsActivity" title="详细资料" >
+																														<nextlist>
+																															<activity name="ChatActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="QMemberDetailsActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="ChatActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="QSearchResultActivity" title="null" >
+																														<nextlist>
+																															<activity name="QDetailsActivity" title="详细资料" isCircle="true">
+																															</activity>
+																															<activity name="ChatActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="ChatActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ChatHistoryActivity" title="null" >
+																										<nextlist>
+																											<activity name="ChatUserDetailCustomerActivity" title="null" >
+																												<nextlist>
+																													<activity name="ChatActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="AddRecommendActivity" title="选择联系人" isCircle="true">
+																													</activity>
+																													<activity name="ChatHistoryActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="ChatPicShowActivity" title="//\/\" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="ChatUserDetailAgentActivity" title="null" >
+																												<nextlist>
+																													<activity name="ChatActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="AddRecommendActivity" title="选择联系人" isCircle="true">
+																													</activity>
+																													<activity name="ChatTabCoustomerListActivity" title="null" >
+																														<nextlist>
+																															<activity name="ChatCustomerListActivity" title="null" >
+																																<nextlist>
+																																	<activity name="QChatListActivity" title="群聊选择一个群\" isCircle="true">
+																																	</activity>
+																																	<activity name="ChatActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="NewHouseListActivity" title="null" >
+																																		<nextlist>
+																																			<activity name="LoginActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="DialogChangeUserInfoActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="LoginActivity" title="null" isCircle="true">
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="ClientDetailActivity" title="返回" isCircle="true">
+																																	</activity>
+																																	<activity name="AnnouncementActivity" title="公告搜房公告\" isCircle="true">
+																																	</activity>
+																																	<activity name="CallAgentListActivity" title="null" >
+																																		<nextlist>
+																																			<activity name="ReponseRentClientActivity" title="应答客户" >
+																																				<nextlist>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="ChatActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="LoginActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="DialogChangeUserInfoActivity" title="null" isCircle="true">
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="MainActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="GongGaoDetailActivity" title="返回返回\返回\返回\" isCircle="true">
+																																	</activity>
+																																	<activity name="BargainDetailActivity" title="议价留言详情" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="ChatUserDetailCustomerActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="ChatUserDetailAgentActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="LoginActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="OwnerDelegateDetailActivity" title="业主委托详情" >
+																																		<nextlist>
+																																			<activity name="OwnerCSInputActivity" title="发布出售住宅发布出售别墅\" >
+																																				<nextlist>
+																																					<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="ChooseHouseInputActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="ChooseHouseLabelActivity" title="请选择房源标签" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="CSGetSSPImagesActivity" title="null" >
+																																						<nextlist>
+																																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="GetImagesActivity" title="null" >
+																																						<nextlist>
+																																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="CSGetSSPVedioActivity" title="null" >
+																																						<nextlist>
+																																							<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="ChooseFacilitiesActivity" title="请选择室内设施选择目标业态\请选择配套设施\" >
+																																						<nextlist>
+																																						</nextlist>
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																			<activity name="OwnerCZInputActivity" title="发布出租住宅发布出租别墅\" >
+																																				<nextlist>
+																																					<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="ChooseHouseLabelActivity" title="请选择房源标签" isCircle="true">
+																																					</activity>
+																																					<activity name="CSGetSSPImagesActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="GetImagesActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="CSGetSSPVedioActivity" title="null" isCircle="true">
+																																					</activity>
+																																					<activity name="ChooseFacilitiesActivity" title="请选择室内设施选择目标业态\请选择配套设施\" isCircle="true">
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="QGEntrustActivity" title="业主委托详情" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="MainActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="GroupMemberAddActivity" title="选择联系人" >
+																																<nextlist>
+																																	<activity name="ChatActivity" title="null" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="ChatListActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="DialogChangeUserInfoActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="ChatAddFriendBySearchActivity" title="添加好友" >
+																																<nextlist>
+																																	<activity name="QMemberDetailsActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="AddfCompanyActivity" title="同公司经纪人" >
+																																		<nextlist>
+																																			<activity name="QMemberDetailsActivity" title="null" isCircle="true">
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="MainActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="ChatHistoryActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_CustomerDetailActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_CustomerManagement_SearchActivity" title="搜索公客搜索私客\" >
+																		<nextlist>
+																			<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Rent_ContractManageCZActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_Rent_JuJianContractActivity" title="修改合同合同信息\" >
+																		<nextlist>
+																			<activity name="EB_Rent_JuJianContractModifyActivity" title="修改合同" >
+																				<nextlist>
+																					<activity name="EB_Rent_ContractAgentInfoActivity" title="代理人信息" isCircle="true">
+																					</activity>
+																					<activity name="Eb_Rent_CommissionRecordActivity" title="收款记录" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="FileDownloadActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_LeaseContractActivity" title="房屋租赁合同" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_ContractBackupTypeListActivity" title="上传备件" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_JuJianContractDetailActivity" title="合同信息" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_InputContractActivity" title="录入合同" >
+																		<nextlist>
+																			<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_ContractAgentInfoActivity" title="代理人信息" isCircle="true">
+																			</activity>
+																			<activity name="Eb_Rent_CommissionRecordActivity" title="收款记录" isCircle="true">
+																			</activity>
+																			<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="Rent_ChooseRoomActivity" title="null" >
+																				<nextlist>
+																					<activity name="EB_Rent_FangYuanGuanLi_SearchActivity" title="搜索房源搜索房源\搜索房间\" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_ContractDetailActivity" title="合同信息" isCircle="true">
+																	</activity>
+																	<activity name="EB_Rent_ContractModifyActivity" title="修改合同修改合同\" >
+																		<nextlist>
+																			<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																			</activity>
+																			<activity name="Eb_Rent_CommissionRecordActivity" title="收款记录" isCircle="true">
+																			</activity>
+																			<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_ContractBackupTypeListActivity" title="上传备件" isCircle="true">
+																			</activity>
+																			<activity name="Rent_ChooseRoomActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_ContractSearchActivity" title="搜索出租合同" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="CZHouseInputActivity" title="录入出租房源" >
+																<nextlist>
+																	<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																	</activity>
+																	<activity name="WebActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="GetPhoneImageActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="ChooseHouseLabelActivity" title="请选择房源标签" isCircle="true">
+																	</activity>
+																	<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																	</activity>
+																	<activity name="CSGetSSPImagesActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="SelectImageActivity" title="选择户型图" >
+																		<nextlist>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="GetImagesActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="ChooseFacilitiesActivity" title="请选择室内设施选择目标业态\请选择配套设施\" isCircle="true">
+																	</activity>
+																	<activity name="CSGetSSPVedioActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Rent_KeYuanKaiFaActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_KeYuan_SearchActivity" title="客源搜索" >
+																		<nextlist>
+																			<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_CustomerDetailReadyActivity" title="客源详情" >
+																		<nextlist>
+																			<activity name="EB_Rent_KeYuanGuanLi_WriteFollowUpActivity" title="写跟进" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_KeYuanKaiFa_ShenHeActivity" title="客源审核" >
+																				<nextlist>
+																					<activity name="EB_Rent_KeYuanKaiFa_ShenHeSecondActivity" title="null" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="WebActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="AboutActivity" title="关于新房帮" >
+																		<nextlist>
+																			<activity name="ShareActivity" title="分享客户端分享房源 \分享动态 \" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="ZX_ChatActivity" title="null" >
+																		<nextlist>
+																			<activity name="TuiJianHouseActivity" title="null" >
+																				<nextlist>
+																					<activity name="ChatActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="WebActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="ZX_ChatPicAlbumActivity" title="//\/\" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="MainActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ZX_ChatGroupDetailActivity" title="null" >
+																				<nextlist>
+																					<activity name="ZX_ChatContactDetailActivity" title="null" >
+																						<nextlist>
+																							<activity name="ZX_ChatHistoryActivity" title="null" >
+																								<nextlist>
+																									<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="ZX_ChatPicShowActivity" title="//\/\" >
+																										<nextlist>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="MainActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="ZX_ChatTabCoustomerListActivity" title="null" >
+																								<nextlist>
+																									<activity name="ZX_ChatAddFriendBySearchActivity" title="添加好友" >
+																										<nextlist>
+																											<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="AddfCompanyActivity" title="同公司经纪人" isCircle="true">
+																											</activity>
+																											<activity name="ZX_QMemberDetailsActivity" title="null" >
+																												<nextlist>
+																													<activity name="ZX_ChatHistoryActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ZX_ChatGroupMemberAddActivity" title="选择联系人" >
+																										<nextlist>
+																											<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ZX_ChatListActivity" title="null" >
+																										<nextlist>
+																											<activity name="BargainDetailActivity" title="议价留言详情" isCircle="true">
+																											</activity>
+																											<activity name="ZX_ChatRemindListActivity" title="null" >
+																												<nextlist>
+																													<activity name="ZX_ChatRemindDetailActivity" title="null" >
+																														<nextlist>
+																															<activity name="EB_Sale_CSTransactionInfoActivity" title="合同详情" >
+																																<nextlist>
+																																	<activity name="EB_Sale_TradeFollowUpActivity" title="写跟进" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="EB_Sale_TMPartListActivity" title="备件信息" >
+																																		<nextlist>
+																																			<activity name="EB_Sale_TMPicShowActivity" title="null" >
+																																				<nextlist>
+																																					<activity name="EB_Sale_TMPicUpLoadActivity" title="null" >
+																																						<nextlist>
+																																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																							</activity>
+																																							<activity name="GetImageNewActivity" title="null" isCircle="true">
+																																							</activity>
+																																						</nextlist>
+																																					</activity>
+																																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																					</activity>
+																																				</nextlist>
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="EB_Sale_KeYuanKaiFaActivity" title="null" >
+																																<nextlist>
+																																	<activity name="EB_KeYuan_SearchActivity" title="客源搜索" isCircle="true">
+																																	</activity>
+																																	<activity name="WebActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="EB_Sale_CustomerDetailReadyActivity" title="客源详情" >
+																																		<nextlist>
+																																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																																			</activity>
+																																			<activity name="EB_Sale_CustomerDetailReadyActivity" title="客源详情" isCircle="true">
+																																			</activity>
+																																			<activity name="EB_Sale_FollowCustomerActivity" title="写跟进" isCircle="true">
+																																			</activity>
+																																			<activity name="EB_Sale_HouseDetailActivity" title="null" isCircle="true">
+																																			</activity>
+																																		</nextlist>
+																																	</activity>
+																																	<activity name="EB_Sale_AppointmentDetailsActivity" title="预约详情" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="EB_Sale_ContractInformationActivity" title="合同详情" isCircle="true">
+																															</activity>
+																															<activity name="MainActivity" title="null" isCircle="true">
+																															</activity>
+																															<activity name="MyPerformanceActivity" title="我的业绩" >
+																																<nextlist>
+																																	<activity name="PerformanceDetailActivity" title="签单业绩明细" >
+																																		<nextlist>
+																																		</nextlist>
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="EB_Sale_HouseDetailActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="AnnouncementActivity" title="公告搜房公告\" isCircle="true">
+																											</activity>
+																											<activity name="MainActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="CallAgentListActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ZX_ChatNotificationListActivity" title="null" >
+																												<nextlist>
+																													<activity name="ZX_ChatNotifyDetailActivity" title="null" >
+																														<nextlist>
+																															<activity name="MainActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="ZX_ChatNotifySendActivity" title="null" >
+																														<nextlist>
+																															<activity name="ZX_ChatContactsSelectorActivity" title="null" >
+																																<nextlist>
+																																</nextlist>
+																															</activity>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="OwnerDelegateDetailActivity" title="业主委托详情" isCircle="true">
+																											</activity>
+																											<activity name="QGEntrustActivity" title="业主委托详情" isCircle="true">
+																											</activity>
+																											<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ZX_ChatSearchFriendsActivity" title="null" >
+																										<nextlist>
+																											<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ZX_ChatCustomerListActivity" title="null" >
+																										<nextlist>
+																											<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="ZX_QChatListActivity" title="群聊选择一个群\" >
+																												<nextlist>
+																													<activity name="QDetailsActivity" title="详细资料" isCircle="true">
+																													</activity>
+																													<activity name="ZX_ChatGroupMemberAddActivity" title="选择联系人" isCircle="true">
+																													</activity>
+																													<activity name="ZX_QSearchResultActivity" title="null" >
+																														<nextlist>
+																															<activity name="ZX_QDetailsActivity" title="详细资料" >
+																																<nextlist>
+																																	<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="ZX_QMemberDetailsActivity" title="null" isCircle="true">
+																																	</activity>
+																																	<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																																	</activity>
+																																</nextlist>
+																															</activity>
+																															<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="ZX_ChatTongshiListActivity" title="同事" >
+																												<nextlist>
+																													<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																											<activity name="ZX_ChatUserDetailAgentActivity" title="null" >
+																												<nextlist>
+																													<activity name="ZX_AddRecommendActivity" title="选择联系人" >
+																														<nextlist>
+																															<activity name="ZX_QChatListActivity" title="群聊选择一个群\" isCircle="true">
+																															</activity>
+																															<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																															</activity>
+																														</nextlist>
+																													</activity>
+																													<activity name="MainActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="ZX_ChatTabCoustomerListActivity" title="null" isCircle="true">
+																													</activity>
+																													<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ZX_ChatNotifySendActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="ChatAddFriendBySearchActivity" title="添加好友" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="ZX_ChatGroupMemberAddActivity" title="选择联系人" isCircle="true">
+																					</activity>
+																					<activity name="MainActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="ZX_ChatTabCoustomerListActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="ZX_ChatGroupChangeNameActivity" title="null" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="ZX_ChatMessagesHistoryActivity" title="聊天记录" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="ZX_ChatUserDetailAgentActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="CustomerAddOrUpdateActivity" title="新建联系人新建联系人\编辑客户\" >
+																				<nextlist>
+																					<activity name="SelectProjNameActivity" title="null" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="SelectCityActivity" title="选择城市" isCircle="true">
+																					</activity>
+																					<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																					</activity>
+																					<activity name="ReadContactActivity" title="导入客户信息" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ZX_ChatUserDetailAgentActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="HouseDetailActivity" title="返回" isCircle="true">
+																			</activity>
+																			<activity name="ZX_ChatSelectPictureActivity" title="相机胶卷" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="ChatTabCoustomerListActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ChatUserDetailCustomerActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ChatUserDetailAgentActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="ZX_ChatSettingActivity" title="null" >
+																				<nextlist>
+																					<activity name="ZX_ChatContactDetailActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="ZX_ChatGroupMemberAddActivity" title="选择联系人" isCircle="true">
+																					</activity>
+																					<activity name="ZX_ChatMessagesHistoryActivity" title="聊天记录" isCircle="true">
+																					</activity>
+																					<activity name="ZX_ChatUserDetailAgentActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="ZX_RecentContactActivity" title="最近联系人" >
+																				<nextlist>
+																					<activity name="ZX_ChatActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="MainActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="DaoxiuActivity" title="null" >
+																<nextlist>
+																</nextlist>
+															</activity>
+															<activity name="SendMsgHomeActivity" title="给客户发短信" isCircle="true">
+															</activity>
+															<activity name="EntrustManagementActivity" title="抢房源" >
+																<nextlist>
+																	<activity name="QiangFangYuanSecondActivity" title="已抢房源其他房源\出租已抢房源\出租其他房源\" >
+																		<nextlist>
+																			<activity name="QiangFangYuanDetailActivity" title="房源详情" >
+																				<nextlist>
+																					<activity name="QiangFangYuanDetail_BigImagesActivity" title="全部图片/\" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="CompleteRoomInfoActivity" title="完善房源信息" >
+																						<nextlist>
+																							<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																							</activity>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="ChooseFacilitiesNewActivity" title="请选择配套设施" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="AddClientActivity" title="添加带看" >
+																						<nextlist>
+																							<activity name="LookRecordActivity" title="带看记录" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="QueRenQiangPaiActivity" title="确认抢拍" >
+																		<nextlist>
+																			<activity name="QiangFangYuanDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="MyPerformanceActivity" title="我的业绩" isCircle="true">
+															</activity>
+															<activity name="CustomerListActivity" title="通讯录" >
+																<nextlist>
+																	<activity name="ChatActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="CustomerDetailActivity" title="返回客户详情\客户详情\客户详情\客户详情\" isCircle="true">
+																	</activity>
+																	<activity name="CustomerInputActivity" title="添加客户返回\" isCircle="true">
+																	</activity>
+																	<activity name="AllMessageCustomerListActivity" title="选择联系人" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="AgentInfoActivity" title="我的搜房帮" isCircle="true">
+															</activity>
+															<activity name="XQListActivity" title="楼盘字典" isCircle="true">
+															</activity>
+															<activity name="TaxComputeActivity" title="税费计算器" isCircle="true">
+															</activity>
+															<activity name="MainTabActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="YuyueListActivity" title="null" >
+																<nextlist>
+																</nextlist>
+															</activity>
+															<activity name="EB_Rent_FangYuanKaiFaActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_Rent_HouseDetailReadyActivity" title="房源详情" >
+																		<nextlist>
+																			<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																			</activity>
+																			<activity name="EB_FollowHouseActivity" title="写跟进" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="WebActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="EB_Sale_HousePublishActivity" title="发布房源" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_FangYuanKaiFa_ShenHeActivity" title="房源审核" >
+																				<nextlist>
+																					<activity name="EB_Rent_FangYuanKaiFa_ShenHeSecondActivity" title="房源审核" >
+																						<nextlist>
+																							<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="DianShang_Rent_FangYuanGuanLi_WriteFollowUpActivity" title="写跟进" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_HouseImgUpLoadActivity" title="上传房源图片" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_HouseAddEditActivity" title="新增房源修改房源\修改房源\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_AddNewOrderActivity" title="新增带看单" >
+																				<nextlist>
+																					<activity name="SendMsgMultiActivity" title="给客户发短信给业主发短信\给客户发短信\给客户发短信\给业主发短信\独家特权短信\钥匙人特权短信\给客户发短信\给房东发短信\" >
+																						<nextlist>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																					</activity>
+																					<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_RoomAddActivity" title="新增房间房间详情\" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_FangYuan_SearchActivity" title="房源搜索搜索房源\搜索带看房源\搜索房间\" isCircle="true">
+																	</activity>
+																	<activity name="GrabbedCustormerActivity" title="已抢客户" >
+																		<nextlist>
+																			<activity name="ChatActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="NoPermissionActivity" title="卖新房" >
+																<nextlist>
+																	<activity name="MainActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="MoreActivity" title="设置" >
+																<nextlist>
+																	<activity name="CancleConsultantActivity" title="注销" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																	<activity name="UpdatePwdActivity" title="设置新密码" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																	<activity name="MessageNotificationActivity" title="消息通知设置" >
+																		<nextlist>
+																			<activity name="LoginActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="LoginActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="RecommendActivity" title="推荐应用" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																	<activity name="AboutActivity" title="关于新房帮" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="CSHouseInputActivity" title="录入出售房源" >
+																<nextlist>
+																	<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																	</activity>
+																	<activity name="WebActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="GetPhoneImageActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="ChooseHouseLabelActivity" title="请选择房源标签" isCircle="true">
+																	</activity>
+																	<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																	</activity>
+																	<activity name="CSGetSSPImagesActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="SelectImageActivity" title="选择户型图" isCircle="true">
+																	</activity>
+																	<activity name="ChooseFacilitiesActivity" title="请选择室内设施选择目标业态\请选择配套设施\" isCircle="true">
+																	</activity>
+																	<activity name="CSGetSSPVedioActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="HomeActivity" title="返回" isCircle="true">
+															</activity>
+															<activity name="SignListActivity" title="null" >
+																<nextlist>
+																	<activity name="SignPmsActivity" title="小区" >
+																		<nextlist>
+																			<activity name="WebActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="SignActivity" title="小区" >
+																		<nextlist>
+																			<activity name="WebActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="SignHistoryPmsActivity" title="签到历史" >
+																		<nextlist>
+																			<activity name="SignActivity" title="小区" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="SignHistoryActivity" title="签到历史" >
+																		<nextlist>
+																			<activity name="SignActivity" title="小区" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="FangYuanHallActivity" title="房源大厅" >
+																<nextlist>
+																	<activity name="QiangFangHouseDetailActivity" title="房源详情" >
+																		<nextlist>
+																			<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																			</activity>
+																			<activity name="HouseHallFeedbackHouseActivity" title="写质量反馈" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="HouseHallHouseUploadImageActivity" title="上传房源图片" >
+																				<nextlist>
+																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="GetImageNewActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="CSGetSSPImagesActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="CooperatedAgentsListActivity" title="认领详情已合作经纪人\" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="HouseEvaluateActivity" title="房源描述房源质量反馈\" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="HallPushActivity" title="订阅推送" >
+																		<nextlist>
+																			<activity name="QiangFangHouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="SharedHouseActivity" title="共享房源" >
+																		<nextlist>
+																			<activity name="MyShareHouseActivity" title="我的共享" >
+																				<nextlist>
+																					<activity name="ShareHouseDetailActivity" title="房源详情" >
+																						<nextlist>
+																							<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																							</activity>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																			</activity>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="GetImageNewActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="BangBrowserActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="BangBrowserActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="GrabbedHouseAlreadyActivity" title="已抢房源已抢房源\已抢房源\" >
+																		<nextlist>
+																			<activity name="QiangFangHouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="QiangFangYuanDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Sale_KeYuanKaiFaActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="EB_Rent_DaiKanListActivity" title="带看管理" >
+																<nextlist>
+																	<activity name="EB_Rent_DaiKanOrderDetailActivity" title="订单详情" >
+																		<nextlist>
+																			<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_HouseDetailReadyActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_DaiKanOrderManageActivity" title="无效预约写带看跟进\改时间\取消带看\" >
+																				<nextlist>
+																					<activity name="EB_Rent_AddNewOrderActivity" title="新增带看单" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_InputContractActivity" title="录入合同" isCircle="true">
+																			</activity>
+																			<activity name="EB_Sale_HouseDetailReadyActivity" title="房源详情" >
+																				<nextlist>
+																					<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																					</activity>
+																					<activity name="EB_Sale_HouseVerification1stStepActivity" title="房源审核" >
+																						<nextlist>
+																							<activity name="EB_Sale_HouseVerification2ndStepActivity" title="房源审核" >
+																								<nextlist>
+																									<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_FollowHouseActivity" title="写跟进" isCircle="true">
+																					</activity>
+																					<activity name="EB_Sale_HousePublishActivity" title="发布房源" isCircle="true">
+																					</activity>
+																					<activity name="EB_Sale_AddNewOrderActivity" title="新建带看" >
+																						<nextlist>
+																							<activity name="SendMsgMultiActivity" title="给客户发短信给业主发短信\给客户发短信\给客户发短信\给业主发短信\独家特权短信\钥匙人特权短信\给客户发短信\给房东发短信\" isCircle="true">
+																							</activity>
+																							<activity name="EB_SearchClientActivity" title="选择带看客源选择带看客源\选择带看客源\带看客源搜索\" isCircle="true">
+																							</activity>
+																							<activity name="EB_Sale_ChooseDaiKan_FangYuanActivity" title="null" >
+																								<nextlist>
+																									<activity name="EB_Sale_HouseDetailActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="EB_Sale_FangYuanGuanLi_SearchActivity" title="房源搜索" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="EB_Sale_HouseDetailActivity" title="null" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="EB_Sale_ShikanUploadActivity" title="上传图片" >
+																						<nextlist>
+																							<activity name="CSInputVideoPlayActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="EB_Sale_PicCropperActivity" title="图片编辑" >
+																								<nextlist>
+																								</nextlist>
+																							</activity>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="GetImageNewActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="EB_Sale_ImageListActivity" title="我的图片库" >
+																								<nextlist>
+																									<activity name="EB_Sale_ImageEditIndexActivity" title="图片编辑" >
+																										<nextlist>
+																											<activity name="EB_Sale_ImageEditMosaicActivity" title="马赛克" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_Sale_ImageEditCropActivity" title="裁剪" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_Sale_ImageEditRoateActivity" title="旋转" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="EB_Sale_ImageEditToneActivity" title="色调" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="EB_Sale_ShikanDetailActivity" title="实勘信息" >
+																								<nextlist>
+																									<activity name="EB_Sale_BuildingPhotoActivity" title="楼栋相册" >
+																										<nextlist>
+																											<activity name="EB_Sale_BuildingFrameActivity" title="构建楼栋框架楼栋框架\" >
+																												<nextlist>
+																												</nextlist>
+																											</activity>
+																											<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="GetImageNewActivity" title="null" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="SelectImageActivity" title="选择户型图" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_Sale_BuildingPhotoActivity" title="楼栋相册" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_AddNewOrderActivity" title="新增带看单" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="CustomerPWForgetActivity" title="null" >
+																<nextlist>
+																	<activity name="MainActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="CustomerListActivity" title="通讯录" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="PushSetActivity" title="发布提醒" >
+																<nextlist>
+																	<activity name="PushSetTimeActivity" title="选择推送时间" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="AccountEditActivity" title="账号管理" >
+																<nextlist>
+																	<activity name="IndexActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="AddAccountActivity" title="添加账号" >
+																		<nextlist>
+																			<activity name="WebActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="LoginActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="SafeUpdataActivity" title="账户安全升级" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="AttestStatusActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="MainActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="LoginActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="SafeUpdataActivity" title="账户安全升级" isCircle="true">
+																	</activity>
+																	<activity name="ComplementUserInfoActivity" title="补全信息" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="SelectedClientsActivity" title="null" >
+																<nextlist>
+																	<activity name="ChatActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="CustomerBrowseFootprintActivity" title="客户足迹" >
+																		<nextlist>
+																			<activity name="TuiJianHouseActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="GrabbedCustormerActivity" title="已抢客户" isCircle="true">
+																	</activity>
+																	<activity name="WebActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="FPT_IndexActivity" title="房源大厅" >
+																<nextlist>
+																	<activity name="FPT_GrabbedAlreadyActivity" title="已认领房源已认领房源\历史已认领\" >
+																		<nextlist>
+																			<activity name="FPT_HouseDetailActivity" title="房源详情" >
+																				<nextlist>
+																					<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																					</activity>
+																					<activity name="FPT_FangpingAddActivity" title="我的房评" >
+																						<nextlist>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="GetImageNewActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="FPT_FangpingDetailActivity" title="我的房评" >
+																								<nextlist>
+																									<activity name="FPT_GrabbedAlreadyActivity" title="已认领房源已认领房源\历史已认领\" isCircle="true">
+																									</activity>
+																									<activity name="FPT_FangpingEditActivity" title="修改我的房评" >
+																										<nextlist>
+																											<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="GetImageNewActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="FPT_FangpingDetailActivity" title="我的房评" isCircle="true">
+																											</activity>
+																										</nextlist>
+																									</activity>
+																									<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																									</activity>
+																									<activity name="GetImageNewActivity" title="null" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="CooperatedAgentsListActivity" title="认领详情已合作经纪人\" isCircle="true">
+																					</activity>
+																					<activity name="FPT_FangpingDetailActivity" title="我的房评" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="QiangFangYuanDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="FPT_HouseDetailActivity" title="房源详情" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Sale_FangYuanGuanLiActivity" title="null" >
+																<nextlist>
+																	<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																	</activity>
+																	<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_HouseAddActivity" title="新增房源" >
+																		<nextlist>
+																			<activity name="EB_Sale_UniqueHouseSettingActivity" title="设置独家房源" >
+																				<nextlist>
+																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="GetPhoneImageActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Sale_BuildingFrameActivity" title="构建楼栋框架楼栋框架\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Sale_KeyHouseSettingActivity" title="设置钥匙房源" >
+																				<nextlist>
+																					<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																					</activity>
+																					<activity name="GetPhoneImageActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Sale_HouseDetailActivity" title="null" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_FangYuanGuanLi_SearchActivity" title="房源搜索" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="IndexActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="ChatTabCoustomerListActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="EB_Rent_SFContractListActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_Rent_SFContractInputFirstActivity" title="新增委托合同" >
+																		<nextlist>
+																			<activity name="EB_Rent_SFContractInputSecondActivity" title="编辑委托合同" >
+																				<nextlist>
+																					<activity name="EB_Rent_SFContractInputPictureActivity" title="编辑委托合同" >
+																						<nextlist>
+																							<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="GetImageNewActivity" title="null" isCircle="true">
+																							</activity>
+																							<activity name="EB_Rent_SFContractListActivity" title="null" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_SFContractAgentInputOrEditActivity" title="代理期付款记录\代理期\付款记录\" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_SFContractSearchActivity" title="搜索委托合同" >
+																		<nextlist>
+																			<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_SFContractDetailActivity" title="合同详情" >
+																		<nextlist>
+																			<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_SFContractEditFirstActivity" title="编辑委托合同" >
+																				<nextlist>
+																					<activity name="EB_Rent_SFContractInputSecondActivity" title="编辑委托合同" isCircle="true">
+																					</activity>
+																					<activity name="EB_Rent_SFContractAgentInputOrEditActivity" title="代理期付款记录\代理期\付款记录\" isCircle="true">
+																					</activity>
+																					<activity name="EB_ChooseDaiKan_FangYuanActivity" title="null" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_SFFollowManageActivity" title="跟进管理" >
+																				<nextlist>
+																					<activity name="EB_Rent_SFApplyInterruptDetailActivity" title="中退申请" >
+																						<nextlist>
+																							<activity name="EB_Rent_SFApplyInterruptPicActivity" title="附件" >
+																								<nextlist>
+																									<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																									</activity>
+																									<activity name="EB_Rent_SFApplyInterruptPicUploadActivity" title="附件" >
+																										<nextlist>
+																											<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="GetImageNewActivity" title="null" isCircle="true">
+																											</activity>
+																											<activity name="EB_Rent_SFApplyInterruptEditActivity" title="中退申请" >
+																												<nextlist>
+																													<activity name="EB_Rent_SFApplyInterruptPicUploadActivity" title="附件" isCircle="true">
+																													</activity>
+																													<activity name="EB_Rent_SFApplyInterruptPicActivity" title="附件" isCircle="true">
+																													</activity>
+																													<activity name="EB_Rent_SFContractAgentInputOrEditActivity" title="代理期付款记录\代理期\付款记录\" isCircle="true">
+																													</activity>
+																													<activity name="EB_Rent_EditOrDetailActivity" title="null" >
+																														<nextlist>
+																														</nextlist>
+																													</activity>
+																												</nextlist>
+																											</activity>
+																										</nextlist>
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="EB_Rent_SFContractAgentInputOrEditActivity" title="代理期付款记录\代理期\付款记录\" isCircle="true">
+																							</activity>
+																							<activity name="EB_Rent_EditOrDetailActivity" title="null" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																					<activity name="EB_Rent_SFApplyInterruptEditActivity" title="中退申请" isCircle="true">
+																					</activity>
+																					<activity name="EB_Rent_SFApplyInterruptFirstActivity" title="中退申请" >
+																						<nextlist>
+																							<activity name="EB_Rent_SFApplyInterruptSecondActivity" title="中退申请" >
+																								<nextlist>
+																									<activity name="EB_Rent_SFApplyInterruptPicUploadActivity" title="附件" isCircle="true">
+																									</activity>
+																									<activity name="EB_Rent_EditOrDetailActivity" title="null" isCircle="true">
+																									</activity>
+																								</nextlist>
+																							</activity>
+																							<activity name="EB_Rent_SFContractAgentInputOrEditActivity" title="代理期付款记录\代理期\付款记录\" isCircle="true">
+																							</activity>
+																						</nextlist>
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_SFContractRefuseReasonActivity" title="驳回原因" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_ContractBigImagesActivity" title="null" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_SFContractProcessActivity" title="看进度" >
+																				<nextlist>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="EB_Sale_DaiKanListActivity" title="带看日程任务签到\" >
+																<nextlist>
+																	<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_AddNewOrderActivity" title="新建带看" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_DaiKanOrderDetailActivity" title="带看单详情" >
+																		<nextlist>
+																			<activity name="EB_Sale_DaiKanOrderManageActivity" title="无效预约写带看跟进\改时间\给业主留言\取消带看\" >
+																				<nextlist>
+																					<activity name="EB_Sale_AddNewOrderActivity" title="新建带看" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="ShowBigPicNewActivity" title="null" >
+																<nextlist>
+																</nextlist>
+															</activity>
+															<activity name="EB_Rent_KeYuanGuanLiActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_Sale_NewOrUpdateClientInfoActivity" title="新增客户修改客户信息\" isCircle="true">
+																	</activity>
+																	<activity name="EB_KeYuan_SearchActivity" title="客源搜索" isCircle="true">
+																	</activity>
+																	<activity name="EB_Rent_NewOrUpdateClientInfoActivity" title="新增客户修改客户信息\" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_CustomerDetailActivity" title="客源详情" >
+																		<nextlist>
+																			<activity name="EB_Rent_KeYuanGuanLi_WriteFollowUpActivity" title="写跟进" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_HouseDetailActivity" title="房源详情" isCircle="true">
+																			</activity>
+																			<activity name="SendMsgMultiActivity" title="给客户发短信给业主发短信\给客户发短信\给客户发短信\给业主发短信\独家特权短信\钥匙人特权短信\给客户发短信\给房东发短信\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_FangYuanTuiJianActivity" title="null" >
+																				<nextlist>
+																					<activity name="EB_FangYuan_SearchActivity" title="房源搜索搜索房源\搜索带看房源\搜索房间\" isCircle="true">
+																					</activity>
+																				</nextlist>
+																			</activity>
+																			<activity name="EB_Rent_NewOrUpdateClientInfoActivity" title="新增客户修改客户信息\" isCircle="true">
+																			</activity>
+																			<activity name="EB_Rent_AddNewOrderActivity" title="新增带看单" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="AssessActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="EB_Rent_TransactionEntryActivity" title="交易管理" >
+																<nextlist>
+																	<activity name="EB_Rent_MyTransactionListActivity" title="我的交易" isCircle="true">
+																	</activity>
+																	<activity name="EB_Rent_AchieveCommissionActivity" title="收佣金收租金\" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="LoanComputeActivity" title="房贷计算器" isCircle="true">
+															</activity>
+															<activity name="EB_Sale_FangYuanKaiFaActivity" title="null" >
+																<nextlist>
+																	<activity name="EB_FangYuan_SearchActivity" title="房源搜索搜索房源\搜索带看房源\搜索房间\" isCircle="true">
+																	</activity>
+																	<activity name="GrabbedCustormerActivity" title="已抢客户" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_HouseDetailReadyActivity" title="房源详情" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="HouseLogActivity" title="null" >
+																<nextlist>
+																	<activity name="WebActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="HouseMgrSaleActivity" title="管理出售房源" >
+																<nextlist>
+																	<activity name="DialogChangeUserInfoActivity" title="null" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="LoginActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="EB_Rent_ZWSFfollowListActivity" title="收房跟进" >
+																<nextlist>
+																	<activity name="EB_Rent_ZWSFfollowContractDetailActivity" title="出房详情" >
+																		<nextlist>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_ZWSFfollowInfoActivity" title="跟进信息" >
+																		<nextlist>
+																			<activity name="ShowImagesActivity" title="全部图片\/\" isCircle="true">
+																			</activity>
+																			<activity name="ShowBigPicActivity" title="null" isCircle="true">
+																			</activity>
+																			<activity name="GetPhoneImageActivity" title="null" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																	<activity name="EB_Rent_ZWSFfollowSearchActivity" title="合同搜索" >
+																		<nextlist>
+																			<activity name="SelectDistrictActivity" title="选择区县" isCircle="true">
+																			</activity>
+																		</nextlist>
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="ZX_ChatTabCoustomerListActivity" title="null" isCircle="true">
+															</activity>
+															<activity name="EB_Sale_TradeManageActivity" title="交易管理" >
+																<nextlist>
+																	<activity name="SearchProNamActivity" title="选择住宅出售楼盘选择别墅出售楼盘\选择写字楼出售楼盘\选择商铺出售楼盘\选择住宅出租楼盘\选择别墅出租楼盘\选择写字楼出租楼盘\选择商铺出租楼盘\选择楼盘\" isCircle="true">
+																	</activity>
+																	<activity name="EB_Sale_CSTransactionInfoActivity" title="合同详情" isCircle="true">
+																	</activity>
+																</nextlist>
+															</activity>
+															<activity name="SSPListNewActivity" title="null" isCircle="true">
+															</activity>
+														</nextlist>
+													</activity>
+													<activity name="CaptureActivity" title="扫一扫" isCircle="true">
+													</activity>
+													<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+													</activity>
+												</nextlist>
+											</activity>
+											<activity name="ForgetPasswordActivity" title="找回密码" >
+												<nextlist>
+													<activity name="IndexActivity" title="null" isCircle="true">
+													</activity>
+													<activity name="LoginActivity" title="null" isCircle="true">
+													</activity>
+													<activity name="ComplementUserInfoActivity" title="补全信息" isCircle="true">
+													</activity>
+												</nextlist>
+											</activity>
+											<activity name="LoanActivity" title="计算器" >
+												<nextlist>
+													<activity name="TaxComputeActivity" title="税费计算器" isCircle="true">
+													</activity>
+													<activity name="LoanComputeActivity" title="房贷计算器" isCircle="true">
+													</activity>
+												</nextlist>
+											</activity>
+											<activity name="CustomerPWForgetActivity" title="null" isCircle="true">
+											</activity>
+											<activity name="MainActivity" title="null" isCircle="true">
+											</activity>
+											<activity name="AssessActivity" title="null" isCircle="true">
+											</activity>
+											<activity name="SafeUpdataActivity" title="账户安全升级" isCircle="true">
+											</activity>
+											<activity name="ComplementUserInfoActivity" title="补全信息" isCircle="true">
+											</activity>
+											<activity name="CustomerListActivity" title="通讯录" isCircle="true">
+											</activity>
+											<activity name="DialogChangeUserInfoActivity" title="null" isCircle="true">
+											</activity>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="LoginActivity" title="null" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="MyCustomersActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="MyHouseResourceActivity" title="房客匹配" >
+						<nextlist>
+							<activity name="ChatActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="CloudCustomerDetailActivity" title="订单详情" isCircle="true">
+							</activity>
+							<activity name="CloudLocationCityListActivity" title="意向区域" isCircle="true">
+							</activity>
+							<activity name="ScoopUpCustomerDetailActivity" title="捞客详情" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="LoanWebViewActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="MyRankActivity" title="我的排名我的一周排名\" >
+						<nextlist>
+							<activity name="TopTenRankActivity" title="null" >
+								<nextlist>
+									<activity name="ChatUserDetailDataActivity" title="null" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="HeroesActivity" title="一周英雄榜" >
+								<nextlist>
+									<activity name="ChatUserDetailDataActivity" title="null" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="ChannelCustomerActivity" title="返回抢客户\" isCircle="true">
+					</activity>
+					<activity name="AttestStatusActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="XfWapDetailActivity" title="资讯详情链接详情\活动详情\资讯详情\链接详情\活动详情\" isCircle="true">
+					</activity>
+					<activity name="RecommendedCustomerListActivity" title="潜客推荐" >
+						<nextlist>
+							<activity name="RecommendedHistoryActivity" title="推荐历史" >
+								<nextlist>
+									<activity name="ChatActivity" title="null" isCircle="true">
+									</activity>
+									<activity name="RecommendedLocationActivity" title="客户定位" >
+										<nextlist>
+										</nextlist>
+									</activity>
+									<activity name="RecommendedBrouseActivity" title="浏览记录" >
+										<nextlist>
+											<activity name="XfWapActivity" title="活动详情" isCircle="true">
+											</activity>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="ChatActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="RecommendedLocationActivity" title="客户定位" isCircle="true">
+							</activity>
+							<activity name="RecommendedBrouseActivity" title="浏览记录" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="BiddingActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+					</activity>
+					<activity name="ChatListActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="CustomerManagerActivity" title="客户管理" >
+						<nextlist>
+							<activity name="QRcodeOrderActivity" title="扫码下单" isCircle="true">
+							</activity>
+							<activity name="MyCustomersActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+							</activity>
+							<activity name="CustomerListActivity" title="通讯录" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="MyShopActivity" title="店铺管理店铺管理\" >
+						<nextlist>
+							<activity name="ApartmentAblumListActivity" title="全部·户型·户型\" >
+								<nextlist>
+									<activity name="ApartmentAblumSelectActivity" title="//\" >
+										<nextlist>
+										</nextlist>
+									</activity>
+									<activity name="ApartmentAddActivity" title="null" >
+										<nextlist>
+											<activity name="ApartmentAblumListActivity" title="全部·户型·户型\" isCircle="true">
+											</activity>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="ShopInfoDetailActivity" title="null" >
+								<nextlist>
+									<activity name="MyDynamicOfShopActivity" title="我的动态" >
+										<nextlist>
+											<activity name="ShopInfoSpeechActivity" title="null" >
+												<nextlist>
+													<activity name="AblumsListActivity" title="null" isCircle="true">
+													</activity>
+													<activity name="MyDynamicOfShopActivity" title="我的动态" isCircle="true">
+													</activity>
+												</nextlist>
+											</activity>
+										</nextlist>
+									</activity>
+									<activity name="PeerPicDetailActivity" title="null" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="MyDynamicOfShopActivity" title="我的动态" isCircle="true">
+							</activity>
+							<activity name="ApartmentDetailActivity" title="null" >
+								<nextlist>
+									<activity name="ApartmentAddActivity" title="null" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="MyShopInfosActivity" title="基本信息" >
+								<nextlist>
+									<activity name="MyShopInfosSaleActivity" title="楼盘选择" >
+										<nextlist>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="ShopInfoSpeechActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="RecommenApartmentdActivity" title="null" >
+								<nextlist>
+									<activity name="ApartmentAblumListActivity" title="全部·户型·户型\" isCircle="true">
+									</activity>
+									<activity name="ApartmentAddActivity" title="null" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="ShopMyAppraiseActivity" title="我的评价" >
+								<nextlist>
+								</nextlist>
+							</activity>
+							<activity name="MyShopProjnameChangeActivity" title="楼盘切换" >
+								<nextlist>
+								</nextlist>
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="OnSaleProjectActivity" title="null" >
+						<nextlist>
+							<activity name="OnSaleProjectFavoriteActivity" title="在售项目收藏列表" >
+								<nextlist>
+								</nextlist>
+							</activity>
+							<activity name="OnSaleProjectMapActivity" title="null" >
+								<nextlist>
+									<activity name="OnSaleProjectActivity" title="null" isCircle="true">
+									</activity>
+									<activity name="WebOnSaleProDetailsActivity" title="null" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="InviteTabActivity" title="null" >
+						<nextlist>
+							<activity name="InviteActivity" title="返回" >
+								<nextlist>
+									<activity name="ScanningActivity" title="扫描二维码" >
+										<nextlist>
+										</nextlist>
+									</activity>
+									<activity name="MessageInviteActivity" title="短信邀请" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="NetfriendsActivity" title="null" >
+								<nextlist>
+								</nextlist>
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="ChatActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="AskActivity" title="问答" isCircle="true">
+					</activity>
+					<activity name="CustomerResourcesActivity" title="null" >
+						<nextlist>
+							<activity name="PublicCustomerPoolActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="EntrustListActivity" title="帮你买房" >
+								<nextlist>
+									<activity name="EntrustDetailActivity" title="帮你买房-详情" isCircle="true">
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="OutBoundListActivity" title="null" >
+								<nextlist>
+									<activity name="ApplyOutBoundActivity" title="null" >
+										<nextlist>
+											<activity name="MyShopProjnameChangeActivity" title="楼盘切换" isCircle="true">
+											</activity>
+											<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+											</activity>
+										</nextlist>
+									</activity>
+									<activity name="BatchNameActivity" title="批次名称" >
+										<nextlist>
+											<activity name="OutCallDetailActivity" title="外呼详情" >
+												<nextlist>
+													<activity name="CloudCustomerEntryActivity" title="录入订单" isCircle="true">
+													</activity>
+												</nextlist>
+											</activity>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="RecommendedCustomerListActivity" title="潜客推荐" isCircle="true">
+							</activity>
+							<activity name="LookHouseListActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="MainActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="DianShangScoreActivity" title="电商积分" >
+						<nextlist>
+							<activity name="ScoreDetailActivity" title="积分明细" isCircle="true">
+							</activity>
+							<activity name="MyScoreActivity" title="我的积分" isCircle="true">
+							</activity>
+							<activity name="ScoreRulesActivity" title="搜房服务协议使用帮助\常见问题\实名认证\返回\返回\返回\返回\功能介绍\红包使用规则\竞标效果\积分商城\楼盘详情\审核认证标准\客户资源获取\申请分配规则\电商积分说明\积分规则说明\" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="ToolBoxActivity" title="工具箱" >
+						<nextlist>
+							<activity name="CalendarRemindTabActivity" title="null" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="MyScoreActivity" title="我的积分" isCircle="true">
+					</activity>
+					<activity name="MyCollectionPageActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="UserInfoNewActivity" title="个人信息" >
+						<nextlist>
+							<activity name="IndexActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="MyScanningActivity" title="我的二维码" >
+								<nextlist>
+								</nextlist>
+							</activity>
+							<activity name="UserChangePhoneActivity" title="null" >
+								<nextlist>
+									<activity name="UserVerificationActivity" title="null" >
+										<nextlist>
+										</nextlist>
+									</activity>
+								</nextlist>
+							</activity>
+							<activity name="AttestStatusActivity" title="null" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="SignInActivity" title="签到" >
+						<nextlist>
+							<activity name="MainActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="LoginActivity" title="null" isCircle="true">
+							</activity>
+							<activity name="AttestStatusActivity" title="null" isCircle="true">
+							</activity>
+						</nextlist>
+					</activity>
+					<activity name="MyWalletActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="LoginActivity" title="null" isCircle="true">
+					</activity>
+					<activity name="MoreActivity" title="设置" isCircle="true">
+					</activity>
+				</nextlist>
+			</activity>
+			<activity name="IntroductActivity" title="使用帮助" >
+				<nextlist>
+					<activity name="LoginActivity" title="null" isCircle="true">
+					</activity>
+				</nextlist>
+			</activity>
+			<activity name="LoginActivity" title="null" isCircle="true">
+			</activity>
+			<activity name="MainActivity" title="null" isCircle="true">
+			</activity>
+		</nextlist>
+	</activity>
+</root>

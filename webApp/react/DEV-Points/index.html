@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DEV-Points</title>
+	<link rel="stylesheet" href="index.css">
+	<style>
+		body {
+            background-color: #ECECEC;
+            font-size: 16px;
+            min-width: 1280px;
+            color:black;
+        }
+
+        header {
+            height: 80px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            padding-left: 4%;
+        }
+
+        header nav {
+            line-height: 60px;
+            margin: 10px 20px;
+            float: right;
+            color: #000000;
+            font-size: 14px;
+        }
+
+        header nav ul
+        {
+            display: inline-flex;
+        }
+
+        header nav ul li
+        {
+            margin-right: 10px;
+        }
+
+        .logo
+        {
+            float: left;
+            width: 220px;
+            height: 60px;
+            margin: 10px 0;
+        }
+
+        .name
+        {
+            font-size: 14px;
+            position: relative;
+            top: -24px;
+        }
+
+        .search
+        {
+            width: 460px;
+            float: left;
+            height: 60px;
+            padding: 10px 30px;
+            margin: 10px 0;
+            border-left: 1px solid #e9e9e9;
+        }
+
+        .wrapper
+        {
+            width: 92%;
+            margin: 0 auto;
+            position: relative;
+            min-height: 700px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            min-width: 1242px;
+        }
+
+        .cf:before, .cf:after
+        {
+            content: " ";
+            display: table;
+        }
+
+        .cf:after
+        {
+            clear: both;
+        }
+
+        .aside-container
+        {
+            float: left;
+        }
+
+        .main-container
+        {
+            width: 1000px;
+            float: right;
+            margin: 0 20px 40px 20px;
+        }
+
+        .main-container h4
+        {
+            padding-left: 10px;
+            margin: 10px 0;
+            border-bottom: 1px solid black;
+        }
+        .main-container .desc
+        {
+            padding-left: 10px;
+            margin: 10px 0;
+        }
+        .desc span:first-child
+        {
+           font-weight:bold;
+        }
+        .desc span:not(:first-child)
+        {
+            display:block;
+            font-size:12px;
+            text-indent:2em;
+
+        }
+        .loading
+        {
+            text-align: center;
+            background: rgba(0,0,0,0.05);
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding: 30px 50px;
+            margin: 20px 0;
+        }
+
+        .ant-table
+        {
+            color:black;
+        }
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+	<script type="text/javascript" src="./dist/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,2320 @@
+/*
+* @Author: cncc
+* @Date:   2016-04-22 13:54:19
+* @Last Modified by:   cncc
+* @Last Modified time: 2016-04-22 13:55:39
+*/
+
+/* CSS Document */
+html{color:#333;background:#fff}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin:0; padding:0}
+fieldset,img{ border:0; vertical-align:middle}
+:focus{outline:0}
+/*font*/
+th{ font-style:normal; font-weight:normal}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal}
+input,button,textarea,select,optgroup,option{ font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; vertical-align:middle; color:#666;}
+input,button,textarea,select{*font-size:100%}
+ol,ul{ list-style:none}
+table{ border-collapse:collapse; border-spacing:0}
+:link,:visited,ins{ text-decoration:none}
+/*清浮动*/
+.clearfix:after{content:" ";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+.clear{height:0;font-size:0;line-height:0;clear:both;overflow:hidden}
+/*body*/
+body{ font-size:12px; font-family: 'Microsoft YaHei'}
+a{color:#333;text-decoration:none;}a:hover{color:#c00; text-decoration:underline;}
+/*public*/
+.floatl{ float:left}
+.floatr{ float:right}
+.alingC{text-align:center;}
+.alignR{ text-align:right}
+.font12{ font-size:12px}
+.font14{ font-size:14px}
+.font16{ font-size:16px}
+.font18{ font-size:18px}
+.blod{font-weight:700}
+.bold{ font-weight:bold}
+.Arial{ font-family:Arial; padding:0 2px}
+.SimSun{ font-family:SimSun}
+.YaHei{ font-family:Microsoft YaHei}
+.rel{position:relative;}
+/* color */
+.blue,.blue a{color:#05a;}.blue a:hover{color:#c00}
+.org,.org a{color:#f32e2e}.org a:hover{color:#f32e2e}
+.red,.red a{color:#de3438!important}.red a:hover{color:#c00!important}
+.red02,.red02 a{color:#de3438}.red02 a:hover{color:#c00}
+.gray6,.gray6 a{color:#666}.gray6 a:hover{color:#c00;}
+.gray9,.gray9 a{color:#999;}.gray9 a:hover{color:#c00;}
+.green,.green a{color:#090;}.green a:hover{color:#c00;}
+.black,.black a{color:#333;}.black a:hover{color:#c00;}
+.yellow, .yellow a, .yellow a:link,.yellow a:active,.yellow a:visited,.yellow a:hover{color:#FF3300!important}
+
+
+.mlr5
+{
+    margin: 0 5px;
+}
+
+.mt2
+{
+    margin-top: 2px;
+}
+
+.mt5
+{
+    margin-top: 5px;
+}
+
+.mtie5
+{
+    margin-top: 5px;
+    *margin-top: 2px;
+}
+
+.mt6
+{
+    margin-top: 6px;
+}
+
+.mt8
+{
+    margin-top: 8px;
+}
+
+.mt10
+{
+    margin-top: 10px;
+}
+
+.mt12
+{
+    margin-top: 12px;
+}
+
+.mt13
+{
+    margin-top: 13px;
+}
+
+.mt15
+{
+    margin-top: 15px;
+}
+
+.mt20
+{
+    margin-top: 20px;
+}
+
+.mr10
+{
+    margin-right: 10px;
+}
+
+.ml5
+{
+    margin-left: 5px;
+}
+
+.ml8
+{
+    margin-left: 8px;
+}
+
+.ml10
+{
+    margin-left: 10px;
+}
+
+.ml15
+{
+    margin-left: 15px;
+}
+
+.ml25
+{
+    margin-left: 25px;
+}
+.mr28
+{
+    margin-right: 28px;
+}
+.rel
+{
+    position: relative;
+}
+
+.redF
+{
+    color: #f32e2e;
+}
+
+body
+{
+    background: #f7f7f7;
+}
+
+.wrap
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+    .wrap a:hover
+    {
+        color: #f32e2e;
+    }
+
+.search-box
+{
+    margin-top: 22px;
+    font-size: 13px;
+}
+
+.search-menu-top
+{
+    background: #fbfbfb;
+    border: 1px solid #e3e3e3;
+}
+
+.search-menu
+{
+    height: 43px;
+    position: relative;
+}
+
+    .search-menu a:hover
+    {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .search-menu li
+    {
+        height: 43px;
+        padding: 0 68px;
+        font: normal 18px/43px 'Microsoft YaHei';
+        border-right: 1px solid #e3e3e3;
+        float: left;
+        cursor: pointer;
+    }
+
+    .search-menu .liOn
+    {
+        font-weight: bold;
+        border-top: 2px solid #f32e2e;
+        border-bottom: 1px solid #fff;
+        background: #fff;
+        position: relative;
+        top: -2px;
+    }
+
+.search-ment-r
+{
+    padding-right: 20px;
+}
+
+    .search-ment-r a.fabu
+    {
+        background: url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif) no-repeat 0 1px;
+        color: #f32e2e;
+        padding: 0 0 0 26px;
+        font: normal 14px/43px 'Microsoft YaHei';
+    }
+
+        .search-ment-r a.fabu:hover
+        {
+            text-decoration: none;
+        }
+
+.search-box .con
+{
+    width: 1198px;
+    background: #fff;
+    margin-top: -1px;
+    border: 1px solid #e3e3e3;
+    font-size: 12px;
+}
+
+.search-listbox
+{
+    padding: 18px 0 10px;
+}
+
+.search-list
+{
+    margin-top: 2px;
+}
+
+    .search-list dt
+    {
+        width: 64px;
+        height: 36px;
+        line-height: 36px;
+        float: left;
+        text-align: right;
+    }
+
+    .search-list dd
+    {
+        padding-left: 70px;
+    }
+
+        .search-list dd input.btnSmall
+        {
+            border: 1px solid #e3e3e3;
+            width: 50px;
+            background: #f7f7f7;
+            cursor: pointer;
+            line-height: 18px;
+            *line-height: 20px;
+            height: 20px;
+        }
+
+        .search-list dd input.inputSmall
+        {
+            width: 35px;
+            padding: 2px 5px 2px;
+            margin: 5px 5px;
+            vertical-align: middle;
+            border: 1px solid #e3e3e3;
+            background: #fff;
+            color: #b8b8b8;
+        }
+
+        .search-list dd a
+        {
+            float: left;
+            height: 36px;
+            line-height: 36px;
+            margin: 0 16px 0 4px;
+        }
+
+.search-box .con a:hover
+{
+    color: #f32e2e;
+}
+
+.search-list dd a.selected
+{
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/selectedArrow.gif) center bottom no-repeat;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.finder
+{
+    padding: 10px 25px 0;
+    line-height: 22px;
+    background: #f9f9f9;
+    border-top: 1px solid #e3e3e3;
+}
+
+    .finder a.term
+    {
+        height: 17px;
+        margin: 0 15px 10px 0;
+        padding: 0 22px 0 6px;
+        color: #545454;
+        line-height: 17px;
+        background: #fff url("http://esf.js.soufunimg.com/esf/zu/img/icoCloseArrow.gif") right 0 no-repeat;
+        border: 1px dashed #ffb180;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+        .finder a.term:hover
+        {
+            color: #666;
+            background-position: right -17px;
+            border-color: #ff6a0d;
+        }
+
+.saveinfo, .clearcont, .subspan
+{
+    display: inline-block;
+    cursor: pointer;
+    background: url(http://img.soufun.com/rent/image/rent/FangJsCss/images/icon16.gif) 0 -150px no-repeat;
+}
+
+.saveinfo
+{
+    padding-left: 20px;
+    margin: 0 10px 10px 0;
+}
+
+.clearcont
+{
+    padding: 0 0 0 20px;
+    margin-bottom: 10px;
+    background-position: 2px -176px;
+}
+
+.subspan
+{
+    padding: 0 0 0 16px;
+    margin: 0 0 0 28px;
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif) no-repeat 0 -23px;
+    position: relative;
+    *top: -10px;
+}
+
+.search-listbox .quYu
+{
+    width: 1134px;
+    margin: -1px auto 5px;
+    padding: 4px 6px;
+    border: 1px solid #f32e2e;
+    border-radius: 3px;
+    *position: relative;
+    z-index: 0;
+}
+
+    .search-listbox .quYu a
+    {
+        margin: 2px 14px 2px 8px;
+        display: inline-block;
+    }
+
+    .search-listbox .quYu strong
+    {
+        font-weight: normal;
+    }
+
+.banner
+{
+    width: 100%;
+    height: 446px;
+    margin-bottom: 40px;
+    position:relative;
+    z-index:5;
+}
+
+.banner-con
+{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: -446px;
+    _top: -486px;
+    z-index: 1000;
+}
+
+.banner-nav
+{
+    border-bottom: 1px solid #e3e3e3;
+    padding: 0 0 0 316px;
+}
+
+    .banner-nav li
+    {
+        float: left;
+        margin: 0 24px;
+        height: 46px;
+        position: relative;
+    }
+
+        .banner-nav li a
+        {
+            font-size: 18px;
+            line-height: 48px;
+            display: inline-block;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .banner-nav li a i
+            {
+                width: 100%;
+                height: 4px;
+                display: block;
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                display: none;
+                background: #f32e2e;
+                font-size: 0;
+                line-height: 0;
+            }
+
+            .banner-nav li a.cur
+            {
+                font-weight: bold;
+                color: #f32e2e;
+            }
+
+                .banner-nav li a.cur i
+                {
+                    display: block;
+                }
+
+            .banner-nav li a:hover
+            {
+                text-decoration: none;
+                color: #f32e2e;
+            }
+
+.side-menu
+{
+    width: 300px;
+    height: 446px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.side-menu h3.arrdown{background-position:186px -243px;}
+    .side-menu h3
+    {
+        height: 46px;
+        line-height: 48px;
+        font-size: 18px;
+        background: #f32e2e url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif?V=1) no-repeat 186px -39px;
+        color: #fff;
+        text-indent: 104px;
+    }
+
+.side-menu-list
+{
+}
+
+    .side-menu-list li.tit-li
+    {
+        padding: 0 20px;
+        height: 64px;
+    }
+
+    .side-menu-list li.draw
+    {
+        background: url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif) no-repeat 274px -112px;
+    }
+
+    .side-menu-list li.on, .side-menu-list li:hover
+    {
+        background-color: #f7f7f7;
+    }
+
+    .side-menu-list li.tit-li h4
+    {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+
+    .side-menu-list li.tit-li p
+    {
+        line-height: 24px;
+        text-align: left;
+    }
+
+        .side-menu-list li.tit-li p a
+        {
+            color: #666;
+            margin-right: 12px;
+        }
+
+            .side-menu-list li.tit-li p a:hover
+            {
+                color: #f32e2e;
+            }
+
+.zy_btn
+{
+    width: 260px;
+    margin: 17px auto 0;
+    font-weight: bold;
+    text-indent: 100px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    font-size: 18px;
+    background: #f32e2e url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif) no-repeat 64px -77px;
+    display: block;
+}
+
+.side-menu a:hover
+{
+    color: #f32e2e;
+}
+
+.side-menu a.zy_btn:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.draw-con
+{
+    position: absolute;
+    top: 46px;
+    left: 300px;
+    z-index: 10;
+    width: 126px;
+    background: #fff;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    display: none;
+}
+
+.draw-l
+{
+    width: 126px;
+    background: #f7f7f7;
+    position: relative;
+}
+
+    .draw-l ol
+    {
+    }
+
+        .draw-l ol li
+        {
+            height: 32px;
+            line-height: 32px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+    .draw-l a.no-con
+    {
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        text-align: center;
+        background: #f7f7f7;
+        display: block;
+        width: 126px;
+    }
+
+    .draw-l ol li.on
+    {
+        background: #fff;
+    }
+
+        .draw-l ol li.on > a
+        {
+            background: #fff;
+            color: #f32e2e;
+        }
+
+.draw-info
+{
+    min-height: 100%;
+    width: 402px;
+    padding: 0 20px;
+    position: absolute;
+    left: 126px;
+    top: 0;
+    display: none;
+    background: #fff;
+}
+
+
+.draw-r
+{
+    width: 402px;
+    padding: 0 20px;
+}
+
+.qx-list
+{
+    padding: 5px 0;
+}
+
+    .qx-list p
+    {
+        font-size: 14px;
+    }
+
+    .qx-list ul
+    {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+        .qx-list ul li
+        {
+            border-bottom: 1px dashed #e3e3e3;
+            padding: 8px 0;
+            overflow: hidden;
+            height: auto;
+            *zoom: 1;
+        }
+
+            .qx-list ul li:hover
+            {
+                background: #fff;
+            }
+
+            .qx-list ul li dl
+            {
+                width: 49%;
+                line-height: 24px;
+            }
+
+                .qx-list ul li dl dt
+                {
+                    font-weight: bold;
+                    float: left;
+                    color: #333;
+                }
+
+                .qx-list ul li dl dd
+                {
+                    overflow: hidden;
+                }
+
+                    .qx-list ul li dl dd a
+                    {
+                        font-size: 12px;
+                        color: #333;
+                        float: left;
+                        margin-right: 6px;
+                        white-space: nowrap;
+                    }
+
+.subway-line
+{
+    position: relative;
+    width: 120px;
+    float: left;
+    min-height: 100%;
+    margin-left: 5px;
+}
+
+    .subway-line ul
+    {
+        position: relative;
+        z-index: 2;
+        padding: 15px 0;
+    }
+
+        .subway-line ul li
+        {
+            position: relative;
+            text-align: left;
+            padding-left: 36px;
+            cursor: default;
+            height: auto;
+            line-height: 20px;
+            margin-bottom: 15px;
+        }
+
+            .subway-line ul li.on, .subway-line ul li
+            {
+                color: #f32e2e;
+                background: none;
+            }
+
+                .subway-line ul li:hover
+                {
+                    background: none;
+                }
+
+                .subway-line ul li a:hover
+                {
+                    text-decoration: none;
+                    line-height: 20px;
+                }
+
+                    .subway-line ul li a:hover .icon-line
+                    {
+                        border-color: #f32e2e;
+                    }
+
+                .subway-line ul li.on .icon-line
+                {
+                    border-color: #f32e2e;
+                }
+
+    .subway-line .icon-line
+    {
+        display: block;
+        border: 2px solid #e0e0e0;
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 4px;
+        left: 14px;
+        _left: -12px;
+        width: 6px;
+        height: 6px;
+        background: #fff;
+        border-radius: 6px;
+    }
+
+    .subway-line .sub-line
+    {
+        width: 2px;
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        background: #e3e3e3;
+        position: absolute;
+        top: 20px;
+        bottom: 36px;
+        left: 18px;
+        *top: 26px;
+        *bottom: 40px;
+        *zoom: 1;
+    }
+
+
+.special-price
+{
+    border: 1px solid #e3e3e3;
+    background: #fff;
+}
+
+.special-tit
+{
+    height: 44px;
+    line-height: 44px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+}
+
+    .special-tit strong
+    {
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+        background: #fff;
+        border-bottom: 1px solid #fff;
+        float: left;
+        padding-left:18px;
+        padding-right:18px;
+        text-align: center;
+        border-right: 1px solid #e3e3e3;
+        border-top: 2px solid #f32e2e;
+        position: relative;
+        top: -1px;
+    }
+
+    .special-tit a
+    {
+        color: #666;
+        float: left;
+        margin: 0 4px 0 26px;
+    }
+
+        .special-tit a.change
+        {
+            padding: 0 20px;
+            float: right;
+            background: url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif) no-repeat left -175px;
+        }
+
+            .special-tit a.change:hover
+            {
+                cursor: pointer;
+            }
+
+.special-list
+{
+    padding: 0 9px 20px;
+    overflow: hidden;
+}
+
+    .special-list li
+    {
+        width: 275px;
+        line-height: 26px;
+        float: left;
+        margin: 0 10px;
+        _display: inline;
+    }
+
+        .special-list li img
+        {
+            width: 275px;
+            height: 208px;
+        }
+
+        .special-list li h5
+        {
+            font-size: 18px;
+        }
+
+        .special-list li p
+        {
+            font-size: 12px;
+            padding-top: 10px;
+        }
+
+            .special-list li p span.redF
+            {
+                font-size: 22px;
+            }
+
+.special-info
+{
+    color: #666;
+    margin-left: 24px;
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/icon-map.gif) no-repeat 0 0;
+    padding-left: 18px;
+}
+
+.dujia
+{
+    color: #f9c98b;
+    font-size: 13px;
+    display: inline-block;
+    padding: 0 6px 0 26px;
+    margin-left: 12px;
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/list-icon.gif) no-repeat left -222px;
+    border: 1px solid #f9c98b;
+    height: 20px;
+    line-height: 20px;
+}
+
+.list-box
+{
+    border: 1px solid #e3e3e3;
+    background: #fff;
+}
+
+.page-menu
+{
+    border-bottom: 1px solid #e3e3e3;
+    background: #fbfbfb;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+}
+
+.page-menu-tit
+{
+}
+
+    .page-menu-tit li
+    {
+        padding: 0 44px;
+        float: left;
+    }
+
+        .page-menu-tit li a
+        {
+            font-size: 14px;
+            position: relative;
+        }
+
+        .page-menu-tit li.on
+        {
+            font-weight: bold;
+            border-left: 1px solid #e3e3e3;
+            background: #fff;
+            border-bottom: 1px solid #fff;
+            border-right: 1px solid #e3e3e3;
+            position: relative;
+            left: -1px;
+        }
+
+            .page-menu-tit li.on a
+            {
+                color: #333;
+            }
+
+                .page-menu-tit li.on a:hover
+                {
+                    text-decoration: none;
+                }
+
+.newHot
+{
+    position: absolute;
+    top: -23px;
+    right: -25px;
+    *top:-13px;
+}
+
+.page-menu-search
+{
+}
+
+    .page-menu-search a
+    {
+        font-size: 12px;
+        background: url(http://esf.js.soufunimg.com/esf/zu/img/men-icon.gif) no-repeat right 16px;
+        color: #666666;
+        float: left;
+        margin-right: 26px;
+        padding-right: 16px;
+    }
+
+        .page-menu-search a.icon-up
+        {
+            background-position: right -21px;
+        }
+
+        .page-menu-search a.icon-pic
+        {
+            background-position: 0 -64px;
+            padding-left: 20px;
+        }
+
+        .page-menu-search a.pic-red
+        {
+            background-position: 0 -92px;
+            color: #f32e2e;
+        }
+
+        .page-menu-search a.arr-top
+        {
+            background-position: right -117px;
+            color: #f32e2e;
+        }
+
+        .page-menu-search a.arr-down
+        {
+            background-position: right -141px;
+            color: #f32e2e;
+        }
+
+.paixu{position:relative; z-index:4; height:38px;  padding-left:13px; margin:0 25px 0 3px;}
+.paixu-tit{line-height:37px; position:relative; display:block;}
+.paixu-tit a{height:auto; margin:0; background:none; padding:0; position:relative; z-index:2; padding-left:12px;}
+.paixu-tit img{margin:0px 0 0 5px; position:relative; z-index:2;vertical-align: middle;}
+.paixu-list{position:absolute; display:none; background:#fff; top:-1px; margin-right:3px; left:0; _left:-60px;  border:1px solid #e3e3e3; line-height:26px; padding:32px 0 10px 12px; width:100px;}
+.paixu-list a{line-height:26px; margin:0;background:none;  padding:0;}
+
+
+.houseList
+{
+    padding: 0 20px 20px;
+    background: #fff;
+}
+
+    .houseList .list
+    {
+        overflow: hidden;
+        border-bottom: 1px dashed #e3e3e3;
+        padding: 20px 0;
+    }
+
+        .houseList .list .img
+        {
+            position: relative;
+            z-index: 1;
+        }
+
+            .houseList .list .img a
+            {
+                float: left;
+            }
+
+            .houseList .list .img img
+            {
+                width: 275px;
+                height: 207px;
+                overflow: hidden;
+            }
+
+        .houseList .list .info
+        {
+            padding-left: 298px;
+            position: relative;
+        }
+
+            .houseList .list .info .txt
+            {
+                color: #333;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: 'Microsoft YaHei';
+            }
+
+        .houseList .list .title
+        {
+            font-size: 22px;
+            font-family: 'Microsoft YaHei';
+            font-weight: bold;
+        }
+
+        .houseList .list .info .moreInfo
+        {
+            position: absolute;
+            _left: 602px;
+            top: 54px;
+            right: 54px;
+            width:208px;
+        }
+
+        .houseList .list .info .time
+        {
+            display: inline-block;
+            margin: 1px 0 0 2px;
+        }
+
+.box-wrap
+{
+    line-height: 26px;
+    padding: 16px 20px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+    .box-wrap h4
+    {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .box-wrap a
+    {
+        margin-right: 16px;
+        display: inline-block;
+    }
+
+.colorGreen
+{
+    border: 1px solid #3fb972;
+}
+
+.colorRed
+{
+    border: 1px solid #f25466;
+}
+
+.colorBlue
+{
+    border: 1px solid #5f8ddc;
+}
+
+.note
+{
+    height: 24px;
+    margin-right: 5px;
+    padding: 0 5px;
+    color: #666;
+    font-size: 12px;
+    line-height: 24px;
+    display: inline-block;
+    *zoom: 1;
+    overflow: hidden;
+}
+
+.subInfor
+{
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/subInforBg.gif) no-repeat left;
+    padding-left: 30px;
+}
+
+.busInfor
+{
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/busInforBg.gif) no-repeat left;
+    padding-left: 30px;
+}
+
+.price
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: #f32e2e;
+    padding-right: 4px;
+}
+.price-list{width:166px;}
+.price-list  .draw-l{width:166px; height:400px;}
+.price-list  .draw-l ol{}
+.splitline
+{
+    color: #e3e3e3;
+    font-weight: normal;
+    padding: 0 16px;
+}
+
+.houseList .list a.lookhoues
+{
+    color: #f32e2e;
+    margin-top: 24px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #f32e2e;
+    font-size: 18px;
+    width: 206px;
+    height: 46px;
+    line-height: 46px;
+}
+
+    .houseList .list a.lookhoues:hover
+    {
+        background: #f32e2e;
+        color: #fff;
+        text-decoration: none;
+    }
+
+.fanye
+{
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+    .fanye a, .fanye .txt
+    {
+        height: 34px;
+        padding: 0 15px;
+        margin: 0 7px;
+        font-family: 'Microsoft YaHei';
+        line-height: 34px;
+        border: 1px solid #e3e3e3;
+        display: inline-block;
+        *zoom: 1;
+        overflow: hidden;
+    }
+
+        .fanye a:hover
+        {
+            text-decoration: none;
+            color: #f32e2e;
+            border-color: #f32e2e;
+        }
+
+    .fanye .pageNow
+    {
+        background: #fff;
+        border: 1px solid #f32e2e;
+        font-weight: bold;
+        color: #f32e2e;
+    }
+
+    .fanye .txt
+    {
+        padding: 0;
+        background: none;
+        border: none;
+    }
+
+.layer,.popBox,.popBox .cha {position: absolute;z-index:10;}
+.layer{position:fixed; width:100%; height:100%; z-index:1008; _position:absolute; left: 0;top: 0;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7F000000', endColorstr='#7F000000');background:rgba(0,0,0,0.5);}
+:root .layer{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00000000', endColorstr='#00000000');}/*for IE9*/
+:root .layer{filter:none;}/*for IE9*/
+.popBox { position:fixed; width: 500px;margin-left: -250px;left: 50%;top:50%; margin-top:-300px;border: 1px solid #f32e2e; z-index:1009;}
+.popBox .cha {right: 10px;top: 0px;cursor: pointer}
+.popBox h3 {background: #f32e2e;color: #fff;font-size: 18px;height: 38px;line-height: 38px;padding-left: 15px}
+
+.popCon
+{
+    padding: 30px 0;
+    background: #fff;
+    font-size: 13px;
+}
+
+.popTips
+{
+    line-height: 30px;
+    text-align: center;
+}
+
+    .popTips span
+    {
+        color: #f32e2e;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+.agentInfor
+{
+    overflow: hidden;
+    width: 210px;
+    margin: 20px auto 0;
+}
+
+    .agentInfor img
+    {
+        width: 56px;
+        height: 70px;
+        margin-right: 15px;
+    }
+
+    .agentInfor p
+    {
+        padding-bottom: 10px;
+    }
+
+.popBtn
+{
+    padding-top: 25px;
+    text-align: center;
+}
+
+    .popBtn input
+    {
+        width: 164px;
+        font-size: 18px;
+        font-weight: 700;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 2px;
+        border: none;
+        color: #fff;
+        background: #f32e2e;
+        cursor: pointer;
+        font-family: "Microsoft YaHei";
+    }
+
+.bookForm .dateList, .bookForm .timeList
+{
+    position: absolute;
+    border: 1px solid #a9a9a9;
+}
+
+.bookForm
+{
+    width: 365px;
+    *width: 376px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+    .bookForm li
+    {
+        padding-top: 10px;
+        line-height: 26px;
+        height: 26px;
+    }
+
+    .bookForm .nm
+    {
+        padding-right: 5px;
+        float: left;
+    }
+
+    .bookForm input.text
+    {
+        height: 24px;
+        line-height: 24px;
+        border: 1px solid #a9a9a9;
+        padding: 0 5px;
+        width: 175px;
+    }
+
+    .bookForm input.radioBtn
+    {
+        margin: 0 3px 0 10px;
+    }
+
+    .bookForm .rTxt, .telModBtn
+    {
+        float: left;
+    }
+
+.telModBtn, .yzmBtn
+{
+    padding-left: 10px;
+    color: #05a;
+    cursor: pointer;
+}
+
+.bookForm .dateBox
+{
+    position: relative;
+}
+
+.bookForm .dateBtn
+{
+    position: absolute;
+    left: 167px;
+    top: 5px;
+    cursor: pointer;
+    line-height:16px;
+}
+
+.bookForm .dateList
+{
+    left: 0;
+    top: 28px;
+    background: #fff;
+    width: 185px;
+    z-index: 1010;
+}
+
+    .bookForm .dateList p, .bookForm .timeList span
+    {
+        line-height: 24px;
+        text-align: center;
+    }
+
+        .bookForm .dateList p.hover, .bookForm .timeList span.hover
+        {
+            background: #f32e2e;
+            color: #fff;
+        }
+
+.bookForm .timeList
+{
+    left: 185px;
+    top: 0;
+    background: #fff;
+    padding: 0 10px;
+    width: 164px;
+}
+
+    .bookForm .timeList span
+    {
+        display: inline-block;
+        width: 82px;
+        float: left;
+    }
+
+/*bus*/
+.search-box .con .input
+{
+    width: 558px;
+    height: 40px;
+    padding: 0 10px;
+    font: normal 12px/40px SimSun;
+    border: 0;
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/searchBg01.gif) 0 0 no-repeat;
+    float: left;
+}
+
+.search-box .con .btnSearch
+{
+    width: 72px;
+    height: 40px;
+    padding-left: 60px;
+    font: normal 16px/40px 'Microsoft YaHei';
+    color: #fff;
+    background: url(http://esf.js.soufunimg.com/esf/zu/img/searchBg01.gif) right 0 no-repeat;
+    float: left;
+}
+
+    .search-box .con .btnSearch:hover
+    {
+        color: #fff;
+    }
+
+.siteIndex .tt
+{
+    font-weight: bold;
+    display: inline-block;
+    height: 33px;
+}
+
+.siteIndex2
+{
+    width: 1200px;
+    margin: 14px auto 0;
+}
+
+.siteIndex a
+{
+    height: 34px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #666;
+}
+
+.mid
+{
+    border: 1px solid #f32e2e;
+    display: block;
+    margin-left: 2px;
+    margin-top: 1px;
+    width: 576px;
+}
+
+.searchNoInfoR
+{
+    float: left;
+    padding-left: 15px;
+    width: 500px;
+}
+
+.lineBox
+{
+    border: 1px solid #e3e3e3;
+    margin: 15px 25px 0 0;
+    padding-bottom: 5px;
+}
+
+    .lineBox h3
+    {
+        font-size: 14px;
+        border-bottom: 1px solid #e3e3e3;
+        line-height: 30px;
+        height: 30px;
+        padding-left: 18px;
+        background: #f9f9f9;
+    }
+
+.lineNum, .lineNm
+{
+    font-size: 12px;
+    color: #fff;
+}
+
+    .lineNum i, .lineNm i
+    {
+        font-style: normal;
+    }
+
+.lineNum
+{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    background: #faa02e;
+    padding: 0 5px;
+    border-radius: 2px;
+    position: relative;
+    margin-left: 14px;
+    margin-top: 5px;
+    float: left;
+}
+
+    .lineNum i
+    {
+        position: absolute;
+        left: -8px;
+        top: 6px;
+        line-height: normal;
+        color: #fca114;
+        font-size: 0;
+    }
+
+.lineList
+{
+    margin: 10px 0 4px;
+    overflow: hidden;
+}
+
+.hide
+{
+    height: 160px;
+}
+
+.lineList
+{
+    *position: relative;
+}
+
+    .lineList li
+    {
+        line-height: 20px;
+        padding: 6px 18px;
+        width: 1160px;
+        float: left;
+    }
+
+        .lineList li a
+        {
+            color: #333;
+        }
+
+            .lineList li a.blue
+            {
+                color: #05a;
+            }
+
+                .lineList li a:hover, .lineList li a.blue:hover
+                {
+                    color: #de3438;
+                }
+
+            .lineList li a.more
+            {
+                float: left;
+                margin-left: 12px;
+                *width: 42px;
+            }
+
+.lineNm
+{
+    height: 20px;
+    line-height: 20px;
+    background: #f32e2e;
+    padding: 0 5px;
+    border-radius: 2px;
+    position: relative;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+    .lineNm i
+    {
+        position: absolute;
+        right: -4px;
+        top: 6px;
+        line-height: normal;
+        color: #faa02e;
+        font-size: 0;
+    }
+
+.lineList li .floatl
+{
+    width: 1055px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    height: 20px;
+}
+
+    .lineList li .floatl a
+    {
+        padding: 0 6px;
+    }
+
+.tabBtnWp
+{
+    padding: 0 18px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.tabBtn
+{
+    float: right;
+    color: #05a;
+    background: url(http://img.soufun.com/rent/image/rent/bus/blArrow.gif) no-repeat;
+    background-position: right -11px;
+    padding-right: 14px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.hdBtn
+{
+    background-position: right 8px;
+}
+
+.search-box .con .shangQuan
+{
+    width: 1146px;
+    margin-top: -1px;
+    *margin-top: -2px;
+    padding-bottom: 10px;
+    float: left;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+    .search-box .con .shangQuan .top, .search .con .shangQuan .bottom
+    {
+        height: 6px;
+        line-height: 0;
+        font-size: 0;
+        background: url(http://img.soufun.com/rent/image/rent/NewHeadJsCss/images/sqTop.gif) no-repeat;
+        overflow: hidden;
+    }
+
+    .search-box .con .shangQuan .bottom
+    {
+        background: url(http://img.soufun.com/rent/image/rent/NewHeadJsCss/images/sqBottom.gif) no-repeat;
+    }
+
+    .search-box .con .shangQuan .contain
+    {
+        width: 1135px;
+        padding: 0 2px 0 7px;
+        border-left: 1px solid #ff7a22;
+        border-right: 1px solid #ff7a22;
+    }
+
+        .search-box .con .shangQuan .contain a
+        {
+            margin: 2px 14px 2px 8px;
+            display: inline-block;
+        }
+
+.shangQuan dd
+{
+    float: left;
+    height: 150px;
+    line-height: 15px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.search_select
+{
+    border: 1px solid #ededed;
+    background-color: #fff;
+    cursor: pointer;
+    font: 12px/28px Arial,"Microsoft YaHei";
+    position: absolute;
+    top: 37px;
+    left: 0;
+}
+
+    .search_select th
+    {
+        color: #333;
+        font-weight: 400;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .search_select td
+    {
+        color: #666;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .search_select .select td, .search_select .select th
+    {
+        background: #ededed;
+    }
+/*school*/
+.wid1000
+{
+    padding: 1px 20px;
+}
+
+.moresearchinfo
+{
+    width: 1173px;
+    padding: 10px 0 10px 25px;
+    border-top: 1px solid #e3e3e3;
+    background: #f9f9f9;
+    left: 0;
+    z-index: 100;
+    margin-top:20px;
+}
+
+#selectbox .select_box
+{
+    width: 83px;
+    height: 25px;
+}
+
+#selectbox div.tag_select, #selectbox div.tag_select_hover, #selectbox div.tag_select_open
+{
+    display: block;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    background: url(http://img.soufun.com/rent/image/rent/FangJsCss/images/searchbj.gif) no-repeat 0 -102px;
+    padding: 0 20px 0 5px;
+}
+
+#selectbox div.tag_select_hover, #selectbox div.tag_select_open
+{
+    background-position: 0 -102px;
+}
+
+#selectbox ul.tag_options
+{
+    margin-top: -1px;
+    mlist-style: none;
+    border: 1px solid #bdbdbd;
+    border-top: none;
+    width: 81px;
+    background: #fff;
+}
+
+    #selectbox ul.tag_options li
+    {
+        display: block;
+        padding: 0 8px;
+        *padding: 0 5px;
+        text-decoration: none;
+        line-height: 22px;
+    }
+
+        #selectbox ul.tag_options li input
+        {
+            height: 22px;
+            margin: 2px 0 5px;
+        }
+
+        #selectbox ul.tag_options li label input
+        {
+            height: auto;
+            margin: auto;
+        }
+
+        #selectbox ul.tag_options li.open_hover
+        {
+            background: #eee;
+        }
+
+        #selectbox ul.tag_options li.open_selected
+        {
+            background: #none;
+            color: #c00;
+        }
+
+#selectpx .select_box
+{
+    width: 118px;
+    height: 25px;
+}
+
+#selectpx div.tag_select, #selectpx div.tag_select_hover, #selectpx div.tag_select_open
+{
+    display: block;
+    width: 91px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    background: url(http://img.soufun.com/rent/image/rent/FangJsCss/images/searchbj.gif) no-repeat 0 -50px;
+    padding: 0 20px 0 7px;
+}
+
+#selectpx div.tag_select_hover, #selectpx div.tag_select_open
+{
+    background-position: 0 -50px;
+}
+
+#selectpx ul.tag_options
+{
+    margin-top: -1px;
+    list-style: none;
+    border: 1px solid #bdbdbd;
+    border-top: none;
+    width: 116px;
+    background: #fff;
+}
+
+    #selectpx ul.tag_options li
+    {
+        display: block;
+        width: 100px;
+        padding: 0 8px;
+        height: 22px;
+        text-decoration: none;
+        line-height: 22px;
+    }
+
+        #selectpx ul.tag_options li.open_hover
+        {
+            background: #eee;
+        }
+
+        #selectpx ul.tag_options li.open_selected
+        {
+            background: #none;
+            color: #c00;
+        }
+
+.schoolList .list
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px dotted #dddCCC;
+    display: block;
+    padding: 20px 0;
+    overflow: hidden;
+    _width: 100%;
+}
+
+    .schoolList .list .img img
+    {
+        height: 105px;
+        overflow: hidden;
+        width: 140px;
+    }
+
+    .schoolList .list .img .txtBg
+    {
+        background: none repeat scroll 0 0 #000000;
+        height: 24px;
+        left: 0;
+        opacity: 0.4;
+        position: absolute;
+        top: 80px;
+        width: 50px;
+    }
+
+    .schoolList .list .img .txt
+    {
+        color: #FFFFFF;
+        font: 12px/24px SinSun;
+        left: 8px;
+        position: absolute;
+        top: 80px;
+    }
+
+    .schoolList .list .info
+    {
+        padding-left: 15px;
+        width: 410px;
+    }
+
+    .schoolList .list .title
+    {
+        font-family: 'Microsoft YaHei';
+        font-size: 16px;
+    }
+
+    .schoolList .list .infoList
+    {
+        line-height: 28px;
+        padding-left: 15px;
+        width: 310px;
+    }
+
+.sidebar
+{
+    width: 252px;
+}
+
+.sidebarBox
+{
+    width: 230px;
+    padding: 0 10px 10px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+    .sidebarBox .title
+    {
+        height: 34px;
+        font: normal 14px/34px 'Microsoft YaHei';
+    }
+
+        .sidebarBox .title .more
+        {
+            float: right;
+            font: normal 12px/34px SimSun;
+        }
+
+    .sidebarBox .info li
+    {
+        line-height: 28px;
+        height: 28px;
+    }
+
+        .sidebarBox .info li.mouseover
+        {
+            line-height: 28px;
+            overflow: hidden;
+            display: inline-block;
+            width: 230px;
+            height: 28px;
+        }
+
+            .sidebarBox .info li.mouseover:hover
+            {
+                background: #F2F2F2;
+                cursor: pointer;
+            }
+
+    .sidebarBox .info .wid125
+    {
+        width: 125px;
+        height: 28px;
+        overflow: hidden;
+    }
+
+.morelist
+{
+    width: 250px;
+    height: 22px;
+    margin-left: -10px;
+    line-height: 22px;
+    background: #f9f9f9;
+    color: #999;
+    margin-top: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .morelist a
+    {
+        color: #999;
+    }
+
+        .morelist a:hover, .morelist:hover
+        {
+            background: #f1f1f1;
+            color: #666;
+            text-decoration: none;
+        }
+
+.sprank_list
+{
+    float: left;
+    display: block;
+    color: #FFF;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-top: 6px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sprankred
+{
+    border: solid 1px #ff6b6b;
+    color: #de3438;
+}
+
+.sprankgray
+{
+    border: solid 1px #ccc;
+    color: #999;
+}
+
+.APPfamily
+{
+    float: left;
+    width: 72px;
+    margin-right: 6px;
+    text-align: center;
+    position: relative;
+}
+
+    .APPfamily dt
+    {
+        height: 60px;
+    }
+
+    .APPfamily dd
+    {
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    .APPfamily p
+    {
+        position: absolute;
+        top: 0;
+        right: 83px;
+        z-index: 9;
+        width: 110px;
+        padding-bottom: 10px;
+        line-height: 18px;
+        color: #333;
+        background: #fff;
+        display: none;
+    }
+
+        .APPfamily p img
+        {
+            margin-bottom: 4px;
+        }
+
+.links
+{
+    border: 1px solid #e3e3e3;
+    font-family: "微软雅黑";
+    margin: 10px auto;
+    width: 1198px;
+    background: #fff;
+}
+
+    .links dt
+    {
+        height: 28px;
+        line-height: 28px;
+        padding: 10px 20px 0;
+    }
+
+    .links ul
+    {
+        padding: 0 10px 10px;
+    }
+
+    .links li a
+    {
+        line-height: 24px;
+        padding: 0 20px 0 10px;
+        display: inline-block;
+    }
+
+        .links li a:hover
+        {
+            color: #f32e2e;
+        }
+
+.mianze
+{
+    color: #666;
+    line-height: 26px;
+    padding: 10px 0px 10px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sqindex
+{
+    clear: both;
+    font: 12px/20px Arial;
+    margin: 10px auto;
+    width: 1200px;
+}
+
+    .sqindex dl
+    {
+        float: left;
+        height: 21px;
+        width: 1200px;
+    }
+
+    .sqindex dt
+    {
+        float: left;
+        margin: 0 5px;
+    }
+
+    .sqindex dd
+    {
+        border-style: solid solid none;
+        border-width: 1px 1px medium;
+        cursor: pointer;
+        float: left;
+        height: 20px;
+        margin-right: 5px;
+        padding: 0 10px;
+        border-color: #ddd;
+        background: #fff;
+    }
+
+    .sqindex .hover
+    {
+        background: none repeat scroll 0 0 #FFFFFF;
+        border-bottom: 1px solid #FFFFFF;
+        float: left;
+        margin-bottom: -1px;
+        position: relative;
+    }
+
+    .sqindex .content
+    {
+        border: 1px solid #dddCCC;
+        float: left;
+        height: 60px;
+        overflow: hidden;
+        padding: 6px 10px;
+        width: 1180px;
+        background: #fff;
+    }
+
+        .sqindex .content a
+        {
+            float: left;
+            line-height: 21px;
+            margin-right: 20px;
+            white-space: nowrap;
+        }
+
+.searchNone
+{
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    font: bold 12px/32px 'Microsoft YaHei';
+    height: 32px;
+    padding: 3px 10px;
+}
+
+.village
+{
+    height: 70px;
+    overflow: hidden;
+}
+
+    .village .space
+    {
+        padding: 0 10px 0 5px;
+    }
+
+    .village dt a
+    {
+        font-weight: 400;
+    }
+
+.village
+{
+    height: 70px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+.villagebg
+{
+}
+
+.village dl
+{
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.village dt
+{
+    height: 23px;
+    overflow: hidden;
+}
+
+    .village dt a
+    {
+        font-size: 12px;
+        font-weight: 700;
+        color: #333;
+    }
+
+.village dd .blue a
+{
+    margin-left: 10px;
+    display: inline;
+}
+
+.village a
+{
+    color: #f32e2e;
+}
+
+.iconAdress, .iconBaoCun, .iconClear, .iconDingZhi, .iconList, .iconMap, .iconPrice, .iconTerm, .iconXQ, .iconZujin
+{
+    background: url(http://img.soufun.com/secondhouse/image/esfnew/search2014/images/icon16.gif) 0 1px no-repeat;
+    display: inline-block;
+    padding-left: 18px;
+}
+
+.iconPrice
+{
+    background-position: 0 -31px;
+    padding-left: 20px;
+}
+
+.iconMap
+{
+    background-position: 0 -59px;
+    padding-left: 20px;
+}
+
+.iconAdress
+{
+    background-position: 0 -89px;
+}
+
+.iconZujin
+{
+    background-position: 0 -119px;
+    padding-left: 18px;
+}
+.houseList .list .img .txtBg{width:50px;height:24px;top:183px;left:0;background:#000;opacity:0.4;filter:Alpha(opacity=40);position:absolute}
+.houseList .list .img .txt{font:normal 12px/24px SinSun;color:#fff;top:183px;left:8px;position:absolute}
+.iconImg{background:url(http://img.soufun.com/rent/image/rent/styles/2013img/images/iconImg.gif) right top no-repeat;padding-right:20px}
+
+
+
+.schoolcard{height:110px;margin:10px auto 0;overflow:hidden;padding:10px 10px 0;width:1150px}
+.schoolcard h1{font-weight:bold;}
+.schoolcard .pic img{height:105px;width:140px}
+.schoolcard .house{line-height:26px;padding-left:15px;width:980px}
+.schoolcard .iconList{background:none;padding-left:20px;position:absolute;right:10px;top:10px}
+
+/*租金走势*/
+.boxpic{overflow: hidden;float: left;line-height: 22px;padding: 5px 20px 3px 0;padding: 5px 20px 5px 0;}
+.boxpic ul{height: 28px;margin: 10px 0 0;background: url(http://img.soufun.com/secondhouse/image/pinggu/images/ulbg.gif) repeat-x;overflow: hidden;}
+.boxpic li{background: url(http://img.soufun.com/secondhouse/image/pinggu/images/libg.gif) repeat-x;padding: 0 10px;margin-right: -1px;border-left: 1px solid #DFDFDF;border-right: 1px solid #DFDFDF;cursor: pointer;float: left;}
+.boxpic  .lion {background: url(http://img.soufun.com/secondhouse/image/pinggu/images/lionbg.gif) repeat-x;border-left: 1px solid #86CDE3;border-right: 1px solid #86CDE3;z-index: 2;position: relative;}
+.boxpic  .contentpic{padding-top: 10px;}
+.ltka{display: inline-block;height: 22px; font-weight:bold; line-height: 22px;margin: 0 10px 15px 0;padding: 0;text-decoration: none;}
+
+
+.guide{margin-top:10px;z-index:1;color:#999}
+.guide a{padding:0 5px;color:#666}
+.guide a:hover{color:#c00}
+.guide a.btn-fabu{display:inline-block;position:absolute;top:15px}
+.houseList .sole_icon_list{top:-3px;left:6px;position:absolute;width:49px;height:28px;background:url(http://esf.js.soufunimg.com/esf/zu/img/dujia0.gif) no-repeat 0 0}
+/*0126add*/
+.wid1000{width:1200px;margin:0 auto}
+div.tag_select,div.tag_select_hover,div.tag_select_open {display: block;width: 60px;height: 25px;line-height: 25px;font-size: 12px;background: url(http://img.soufun.com/rent/image/rent/FangJsCss/images/searchbj.gif) 0 -102px no-repeat;padding: 0 20px 0 5px}
+div.tag_select_hover,div.tag_select_open {background-position: 0 -102px}
+.select_box02 {width: 100px;height: 25px}
+div.tag_select02,div.tag_select02_hover,div.tag_select02_open {display: block;width: 100px;height: 25px;line-height: 25px;font-size: 12px;background: url(http://img.soufun.com/rent/image/rent/FangJsCss/images/searchbj.gif) 0 -50px no-repeat;padding: 0 20px 0 5px}
+div.tag_select02_hover,div.tag_select02_open {background-position: 0 -50px}
+ul.tag_options {margin-top: -1px;list-style: none;border: 1px solid #bdbdbd;border-top: none;width: 81px;background: #fff}
+ul.tag_options li {display: block;padding: 0 8px;*padding: 0 5px;line-height: 22px}
+ul.tag_options li input {height: 22px;margin: 2px 0 5px}
+ul.tag_options li label input {height: auto;margin: auto}
+ul.tag_options li.open_hover {background: #eee}
+ul.tag_options li.open_selected {background: 0 0;color: #c00}
+.icon-yongjin{height:20px; padding:0 5px; font-size:13px; font-weight:normal;vertical-align: middle; margin-top:-3px;margin-right:3px; color:#f32e2e; border:2px solid #f32e2e; line-height:20px; display:inline-block;}
+.iconPerson{background:url(http://img.soufun.com/rent/image/rent/styles/2013img/images/icon16.gif) 0 0 no-repeat;display:inline-block;padding-left:18px ;background-position:0 -120px;padding-left:22px}
+   .floating {
+    width: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+    _position: absolute;
+    _top: expression(documentElement.scrollTop+documentElement.clientHeight - this.offsetHeight-120);
+    z-index: 1000
+}
+
+
+
+.floating a {
+    display: block;
+    width: 60px;
+    height: 57px;
+    background: url(http://img.soufun.com/rent/image/rent/image/tool-bg.gif) no-repeat;
+    overflow: hidden
+}
+
+.floating a.img-download {
+    background-position: 0 -399px
+}
+
+.floating a.img-download:hover {
+    background-position: -72px -399px
+}
+
+.floating a.img-fabu {
+    height: 58px;
+    background-position: 0 -171px
+}
+
+.floating a.img-fabu:hover {
+    height: 58px;
+    background-position: -72px -171px
+}
+
+.floating a.img-delete {
+    background-position: 0 -229px
+}
+
+.floating a.img-delete:hover {
+    background-position: -72px -229px
+}
+
+.floating a.img-ding {
+    background-position: 0 -286px
+}
+
+.floating a.img-ding:hover {
+    background-position: -72px -286px
+}
+
+.floating a.imgUP {
+    background-position: 0 -343px
+}
+
+.floating a.imgUP:hover {
+    background-position: -72px -343px
+}
+
+/*0303 new*/
+.cut500hunderd{position:absolute; text-align:center; top:0px; right:20px; font-size:13px; font-weight:bold; color:#fff;width:45px; height:45px; background:url(http://esf.js.soufunimg.com/esf/zu/image/500bgpng.png) no-repeat;_background:url(http://esf.js.soufunimg.com/esf/zu/image/500bg.gif) no-repeat;}
+.cut500hunderd span{ display:block; line-height:18px;}
+
+
+/*0308add*/
+.agents-list-con{overflow:hidden; width:1198px;}
+.special-tit a.no-bg{background:none;}
+.agents-list{padding:0 40px 20px; width:1140px;}
+.agents-list li{float:left;  width:210px; margin-right:16px;}
+.agents-list .zhuanjia{position: absolute;bottom:0; right:-2px;}
+.agents-list dt{padding:2px; border:1px solid #e3e3e3;;}
+.agents-list dd{padding:3px 0 0 95px;}
+
+/*0310spring*/
+.spring{position:absolute;text-align:center; top:0px; right:20px; font-size:14px; font-weight:bold; color:#fff;width:44px; height:51px;background:url(http://esf.js.soufunimg.com/esf/zu/image/spring.gif) no-repeat;}
+.spring span{ display:block;line-height:18px;}

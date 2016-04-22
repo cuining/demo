@@ -1,0 +1,58 @@
+
+*{
+	padding: 0;
+	margin: 0;
+} 
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif
+}
+em{
+	font-style: normal;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+.g-bd{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	padding: 40px;
+}
+.m-top{
+	position:relative;
+	z-index: 1000;
+	height: 70px;
+	background-position: 0 -80px;
+	background-repeat: repeat-x;
+	
+}
+.m-nav{	
+	border-bottom: 1px solid #ddd;	
+}
+.m-nav:after{
+	display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;
+}
+.m-nav li{
+	position: relative;
+	background-position: right -300px;
+	float: left;
+	height: 30px;
+	font-size:14px;
+	
+}
+.m-nav a{
+	padding: 0 20px 0 20px;
+	color: #333;
+	overflow: hidden;
+	
+	display: block;
+    height: 30px;
+}
+.m-nav li.on{
+	border-bottom: 3px solid #009a61
+}

@@ -1,0 +1,55 @@
+* {
+    margin:0;padding:0;
+}
+body{
+    font-family:-apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-size:13px;
+    -webkit-text-size-adjust:none;
+    text-size-adjust:none;
+}
+.wrap{
+	margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    max-width: 640px;
+    background: #fff;
+    padding-top: 44px;
+}
+.wrap > ul{
+    position: fixed;
+    background-color: #fff;
+}
+.wrap > div {
+    padding-top: 35px;
+}
+.nobodyimg {
+	width: 100%;
+    margin-top: 8%;
+}
+.nobodyon p {
+	font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.nobodybottom{ box-sizing:border-box; background:#f0f0f0; border-top:1px solid #d2d2d2; width:100%; position:fixed; bottom:0%; left:0%;}
+.infor{ color:#000;}
+.place{ color:#999;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;font-size:12px;}
+.nobodybottom dl dt{ margin:0% 2% 0 0;}
+.nobodybottom dl dt img{  width: 46;
+    height: 53;
+    margin: 5 0;
+    margin-left: 10;
+}
+.nobodybottom dl dd{ margin:2% 0%; }
+.nobodybottom p{ text-align:left; font-size:12px;}
+.fl {
+    float: left;
+}
+.reload {
+    position: relative;
+    left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%,-50%);
+}
