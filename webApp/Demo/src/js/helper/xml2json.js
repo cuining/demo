@@ -62,7 +62,6 @@ var xmlloop = function(xml){
 			} else {
 				child = xmlloop(node);
 			}
-
 			// 判断当前节点名称是否已经存在
 			if (result.hasOwnProperty(node.nodeName)) {
 

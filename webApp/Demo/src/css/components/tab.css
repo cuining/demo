@@ -19,6 +19,19 @@
     border-bottom:2px solid #228ce2;
 }
 
-.tabs-menu{ font-size:14px;}
+.tabs-menu { font-size:14px;z-index: 1}
+
+.tab-panel {
+    width: 33.33%;
+    overflow:hidden;
+}
+.tab-panels {
+    display: flex;
+    width: 300%;
+    transform: translateX(0%);
+    -webkit-transform: translateX(-0%);
+    transition-property: all;
+    -webkit-transition-property: all;
+}
 
 

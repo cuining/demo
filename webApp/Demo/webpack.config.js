@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     path: __dirname + '/dist',
-    filename: '[chunkhash:8].[name].js',
+    filename: '[name].js',
     chunkFilename:'[name].[chunkhash:8].js'
   },
   eslint:{
@@ -37,7 +37,7 @@ module.exports = {
         warnings: false
       }
     }),
-    new ExtractTextPlugin("style.[contenthash:8].css"), // hash css文件
+    new ExtractTextPlugin("style.css"), // hash css文件
     new CommonsChunkPlugin({
       filename:'vendor.js',
       name:['vendor'],
@@ -75,7 +75,7 @@ module.exports = {
                     loaders: [
                         // url-loader更好用，小于10KB的图片会自动转成dataUrl，
                         // 否则则调用file-loader，参数直接传入
-                        'url?limit=10000&name=img/[hash:8].[name].[ext]'
+                        'url?limit=10000&name=img/[name].[ext]'
                     ]
         }
     ]
