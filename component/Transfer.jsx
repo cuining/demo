@@ -67,6 +67,7 @@ class Transfer extends React.Component {
   changeChosenData(arr1, arr2) {
     const source = arr1.filter(item => !item.selected);
     const target = arr1.filter(item => item.selected).map(item => {
+      item.chosen = !item.chosen;
       item.selected = false;
       return item;
     }).concat(arr2);
