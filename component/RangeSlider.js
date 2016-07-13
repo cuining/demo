@@ -24,6 +24,11 @@ class RangeSlider extends React.Component {
       limit: 0,
       grab: 0,
     }
+    // 不能在addEventListener中直接使用this.handleEnd.bind(this),
+    // 原因是bind方法会创建一个新函数。调用两次bind会返回两个不同的方法，虽然表面上看起来一样
+    // 实际上在内存中的地址是不一样的。会导致removeEventListener失败。
+    this.mouseup = this.handleEnd.bind(this); 
+    this.mousemove = this.handleDrag.bind(this);
   }
 
   componentDidMount() {
@@ -41,22 +46,19 @@ class RangeSlider extends React.Component {
     })
   }
 
-  handleStart(e) {
-    // console.log(e + 'handleStart')
-    document.addEventListener('mousemove', this.handleDrag.bind(this), false);
-    document.addEventListener('mouseup', this.handleEnd.bind(this), false)
+  handleStart() {
+    document.addEventListener('mousemove', this.mousemove, false);
+    document.addEventListener('mouseup', this.mouseup, false)
   }
 
   handleEnd(e) {
-    // console.log(e + 'invoke handleEnd')
-    document.removeEventListener('mousemove', this.handleDrag.bind(this),false);
-    document.removeEventListener('mouseup', this.handleEnd.bind(this),false);
+    document.removeEventListener('mousemove', this.mousemove, false);
+    document.removeEventListener('mouseup', this.mouseup, false);
   }
 
   handleDrag(e) {
     this.handleNoop(e);
 
-    // console.log(e + 'handleDrag')
     let { onChange } = this.props;
     if (onChange){
       onChange(this.position(e));
@@ -125,16 +127,16 @@ class RangeSlider extends React.Component {
 
     trackStyle = {['width']: `${coords.fill}px`};
     handleStyle = {['left']: `${coords.handle}px`};
+    
+    className = className ? `slider ${className}` : 'slider';
     return (
       <div 
-        className="slider"
+        className={className}
         ref="slider"
         onMouseDown={e => this.handleDrag(e)}
-        onDragStart={e => console.log('start')}
-        onDragOver= {e => console.log('over')}
         onClick={e => this.handleNoop(e)} 
       >
-        <div className="handle" ref="handle" style={handleStyle}></div>
+        <div className="handle" ref="handle" onClick={e => this.handleNoop(e)} onMouseDown={e => this.handleStart(e)} style={handleStyle}></div>
         <div className="track" ref="track" style={trackStyle}></div>
         <div className="mask">
           <span style={{left:'0%'}}>{min}</span>
