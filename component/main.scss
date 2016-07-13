@@ -47,6 +47,19 @@ section {
   }
 }
 
+.stress-config {
+  height: 45px;
+  label {
+    padding: 6px 0 0 0;
+    font-weight: normal;
+    text-align: right;
+  }
+
+  .mt-5 {
+    margin-top: -5px;
+  }
+}
+
 .stress-list {
   height: 175px;
   overflow-x: hidden;
@@ -75,7 +88,7 @@ section {
     height: 35px;
     span.info {
       display: inline-block;
-      margin-top: 4px;
+      margin-top: 3px;
       float: left;
     }
     span.input-group-addon {
@@ -118,10 +131,15 @@ section {
   .transfer-opt {
     display: inline-block;
     transform: translateY(-100%);
-    margin: 0 8px;
+    margin: 0 4px;
     overflow: hidden;
     button {
       margin-bottom: 4px;   
     }
   }
+}
+
+.btn-fire {
+  margin-top: 90%;
+  margin-bottom: 10px;
 }
