@@ -143,3 +143,30 @@ section {
   margin-top: 90%;
   margin-bottom: 10px;
 }
+.notification {
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  .notification-content {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    position: relative;
+    right: 50%;
+    i {
+      margin-right: 4px;
+    }
+    .glyphicon-info-sign {
+      color: orange;
+    }
+
+    .glyphicon-ok-sign {
+      color: green;
+    }
+
+    .glyphicon-remove-sign {
+      color: red;
+    }
+  }
+}
