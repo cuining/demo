@@ -170,3 +170,39 @@ section {
     }
   }
 }
+
+.atfc-toggle {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 36px;
+  height: 14px;
+  border-radius: 30px;
+  background-color: rgb(189, 189, 189);
+  transition: background-color 0.1s, border 0.1s;
+}
+
+.atfc-toggle-checked {
+  border-color: #04BE02;
+  background-color: #04BE02;
+}
+
+.atfc-toggle-checked:after {
+  transform: translateX(20px);
+  -webkit-transform: translateX(20px);
+}
+
+.atfc-toggle:after {
+  content: ' ';
+  background-color: rgb(245, 244, 245);
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  top: -3px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35), -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+}
