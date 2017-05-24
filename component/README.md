@@ -1,3 +1,0 @@
-some component base react-bootstrap
-and css all in main.scss
-...

@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-demo",
+  "version": "1.0.0",
+  "description": "nextjs",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "next": "^2.1.1",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuining/nextjs-demo.git"
+  },
+  "keywords": [
+    "ssr"
+  ],
+  "author": "cuining",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuining/nextjs-demo/issues"
+  },
+  "homepage": "https://github.com/cuining/nextjs-demo#readme"
+}
